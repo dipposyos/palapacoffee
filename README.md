@@ -39,6 +39,8 @@ The repository excludes dependencies and generated output through `.gitignore`. 
 
 The repository includes `.github/workflows/deploy-cloudflare.yml`. Every push to the `main` branch builds the website and deploys it to Cloudflare Workers.
 
+The root `wrangler.jsonc` contains the complete Cloudflare configuration. If you use Cloudflare Workers Builds instead of GitHub Actions, use `pnpm install --frozen-lockfile` as the install command and `pnpm run deploy` as the deploy command. No root-directory setting is needed.
+
 ### One-time setup
 
 1. Create or sign in to a Cloudflare account.
