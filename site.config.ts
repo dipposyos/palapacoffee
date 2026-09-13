@@ -14,9 +14,9 @@ export const content = {
   images: {
     hero: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=2000&q=90',
     process: [
-      'https://images.unsplash.com/photo-1497515114629-f71d768fd07c?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=900&q=85',
-      'https://images.unsplash.com/photo-1442550528053-c431ecb55509?auto=format&fit=crop&w=900&q=85',
+      '/images/cultivated.jpeg',
+      '/images/processed.jpeg',
+      '/images/prepared.jpeg',
     ],
     gallery: [
       '/images/bandung-highlands-drying.jpeg',
