@@ -11,6 +11,12 @@ export const content = {
     instagram: 'https://instagram.com/palapacoffee',
   },
   address: 'Bandung, West Java, Indonesia',
+  videos: [
+    { id: 'd1StS0x8xr0', url: 'https://youtube.com/shorts/d1StS0x8xr0?feature=share', title: 'Coffee process story 01' },
+    { id: 'rapPar2DW4c', url: 'https://youtube.com/shorts/rapPar2DW4c?feature=share', title: 'Coffee process story 02' },
+    { id: '8jV57KnB4_Q', url: 'https://youtube.com/shorts/8jV57KnB4_Q?feature=share', title: 'Coffee process story 03' },
+    { id: '5vqVJkLrQ8U', url: 'https://youtube.com/shorts/5vqVJkLrQ8U?feature=share', title: 'Coffee process story 04' },
+  ],
   images: {
     hero: 'https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=2000&q=90',
     process: [
