@@ -16,9 +16,12 @@ export const metadata: Metadata = {
   title: 'Palapa Coffee | Bandung Green Coffee',
   description: 'Specialty green coffee from Bandung, West Java, prepared for importers and roasters around the world.',
   icons: {
-    icon: '/palapa-logo.png',
-    shortcut: '/palapa-logo.png',
-    apple: '/palapa-logo.png',
+    icon: [
+      { url: '/favicon-32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    shortcut: '/favicon-32.png',
+    apple: { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' },
   },
 };
 

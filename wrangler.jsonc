@@ -1,22 +1,11 @@
 {
   "$schema": "./node_modules/wrangler/config-schema.json",
-  "name": "palapa-coffee",
+  "name": "palapacoffee",
   "main": "dist/server/index.js",
   "compatibility_date": "2026-08-29",
   "compatibility_flags": ["nodejs_compat"],
-  "no_bundle": true,
   "assets": {
     "directory": "dist/client"
-  },
-  "rules": [
-    {
-      "type": "ESModule",
-      "globs": ["**/*.js", "**/*.mjs"]
-    }
-  ],
-  "build": {
-    "command": "pnpm run build",
-    "watch_dir": "app"
   },
   "observability": {
     "enabled": true
