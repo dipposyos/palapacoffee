@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'Palapa Coffee | Bandung Green Coffee',
   description: 'Specialty green coffee from Bandung, West Java, prepared for importers and roasters around the world.',
+  icons: {
+    icon: '/palapa-logo.png',
+    shortcut: '/palapa-logo.png',
+    apple: '/palapa-logo.png',
+  },
 };
 
 export default function RootLayout({
