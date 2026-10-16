@@ -1,18 +1,63 @@
+'use client';
+
+import { useEffect, useState } from 'react';
 import { ArrowDownRight, ArrowUpRight, Mail, MapPin, Menu, MessageCircle, Play } from 'lucide-react';
 import { content } from '../site.config';
-const processes = [['01','Cultivated','Grown by trusted smallholder partners across the cool, volcanic highlands surrounding Bandung.'],['02','Processed','Careful cherry selection and considered natural, washed, and honey processes reveal each lot’s character.'],['03','Prepared','Graded, cupped, and prepared for export with dependable documentation and lot traceability.']];
-const qualities = [['Specialty grade','Selected lots scoring 80+ with clear provenance and a clean, expressive cup.'],['Natural character','Sweet, fruit-led profiles shaped by the soil, elevation, and patient processing.'],['Responsible supply','Long-term farmer relationships support fairer value and resilient harvests.'],['Export ready','Consistent preparation, secure packaging, and practical support from sample to shipment.']];
+import languageData from './translations.json';
+
+type Locale = keyof typeof languageData.translations;
 
 function WhatsAppIcon() { return <svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.04 3A12.9 12.9 0 0 0 5.13 22.77L3.4 29l6.38-1.67A12.96 12.96 0 1 0 16.04 3Zm0 23.72c-1.9 0-3.77-.5-5.4-1.45l-.39-.23-3.78.99 1.01-3.68-.25-.38a10.7 10.7 0 1 1 8.81 4.75Zm5.87-8.02c-.32-.16-1.9-.94-2.2-1.05-.29-.11-.5-.16-.72.16-.21.32-.82 1.05-1 1.27-.19.21-.38.24-.7.08-.32-.16-1.36-.5-2.59-1.6a9.7 9.7 0 0 1-1.79-2.23c-.19-.32-.02-.5.14-.66.15-.14.32-.37.48-.56.16-.18.21-.32.32-.53.11-.21.05-.4-.03-.56-.08-.16-.72-1.73-.98-2.37-.26-.62-.52-.54-.72-.55h-.61c-.21 0-.56.08-.85.4-.3.32-1.12 1.1-1.12 2.67s1.15 3.1 1.3 3.31c.17.22 2.26 3.45 5.48 4.84.76.33 1.36.53 1.83.68.77.25 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.4.19-1.53-.08-.14-.3-.22-.62-.38Z"/></svg> }
 
-export default function Home() { return <main>
-  <a className="skip-link" href="#origin">Skip to main content</a>
-  <header className="site-header"><a className="brand" href="#top" aria-label="Palapa Coffee home"><span>Palapa</span> Coffee</a><nav className="desktop-nav" aria-label="Primary navigation"><a href="#origin">Coffee Origin</a><a href="#quality">Coffee Quality</a><a href="#about">About Us</a><a className="contact-button" href="#contact">Contact Us <ArrowUpRight size={16} aria-hidden="true"/></a></nav><details className="mobile-nav"><summary aria-label="Open navigation menu"><Menu aria-hidden="true"/></summary><nav aria-label="Mobile navigation"><a href="#origin">Origin</a><a href="#quality">Quality</a><a href="#about">About</a><a href="#contact">Contact</a></nav></details></header>
-  <a className="floating-whatsapp" href={content.links.whatsapp} target="_blank" rel="noreferrer" aria-label="Chat with Palapa Coffee on WhatsApp"><WhatsAppIcon/><span>Chat on WhatsApp</span></a>
-  <section id="top" className="hero" style={{backgroundImage:`linear-gradient(90deg,rgba(26,20,13,.82),rgba(26,20,13,.18)),url(${content.images.hero})`}}><div className="eyebrow light"><span/> From Java · To the world</div><h1>Bandung coffee,<br/><em>beautifully</em> expressed.</h1><p>Green coffee rooted in the Sunda highlands, selected with care and prepared for roasters around the world.</p><div className="hero-actions"><a href="#origin">Discover our origin <ArrowDownRight size={17}/></a><span>West Java, Indonesia<br/>6.9° S · 107.6° E</span></div></section>
-  <section id="origin" className="section origin"><div className="section-heading"><div><div className="eyebrow"><span/> Coffee origin</div><h2>Originated from<br/>the Land of Sunda.</h2></div><p>Our coffee begins in the green folds of Bandung’s volcanic highlands. Cool air, generous rainfall, and mineral-rich soils let cherries mature slowly, building the sweetness and lively character that distinguish West Java in every cup.</p></div><div className="origin-image" style={{backgroundImage:`linear-gradient(rgba(24,38,25,.46),rgba(24,38,25,.46)),url(${content.images.origin})`}}><span>1,200–1,700 MASL</span><strong>Bandung Highlands</strong></div><div className="process-grid">{processes.map((x,i)=><article key={x[1]}><img src={content.images.process[i]} alt={`${x[1]} coffee production in West Java`} loading="lazy" decoding="async"/><div className="card-number">{x[0]}</div><h3>{x[1]}</h3><p>{x[2]}</p></article>)}</div><div className="video-heading"><div className="eyebrow"><span/> From the process</div><h3>Watch the work at origin.</h3></div><div className="video-grid">{content.videos.map((video,i)=><a key={video.id} href={video.url} target="_blank" rel="noreferrer" aria-label={`Watch ${video.title} on YouTube (opens in a new tab)`}><img src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} alt="" aria-hidden="true" loading="lazy" decoding="async"/><span className="video-number">0{i+1}</span><span className="play-button"><Play size={20} fill="currentColor" aria-hidden="true"/></span><strong>{video.title}</strong></a>)}</div></section>
-  <section id="quality" className="section quality"><div className="quality-intro"><img src={content.images.quality} alt="Ripe coffee cherries being carefully selected" loading="lazy" decoding="async"/><div><div className="eyebrow light"><span/> Coffee quality</div><h2>Our oath is to give sustainable and natural coffee to the world.</h2><p>Quality starts long before a sample reaches the cupping table. We work close to origin, following every lot from cherry selection through processing and final preparation. That care creates green coffee with dependable physical quality, clear flavor, and a story buyers can stand behind.</p><p>Our approach is practical and personal: listen to growers, protect the character of each harvest, and give importers and roasters the information they need to buy with confidence.</p><a href="#contact">Request our current offer list <ArrowUpRight size={17} aria-hidden="true"/></a></div></div><div className="quality-grid">{qualities.map((x,i)=><article key={x[0]}><img src={content.images.qualityCards[i]} alt={`${x[0]} coffee quality`} loading="lazy" decoding="async"/><span>0{i+1}</span><h3>{x[0]}</h3><p>{x[1]}</p></article>)}</div></section>
-  <section id="about" className="section about"><div className="about-pictures left"><img src={content.images.about[0]} alt="Coffee farmer in Bandung" loading="lazy" decoding="async"/><img src={content.images.about[1]} alt="Coffee cherries ripening on a tree" loading="lazy" decoding="async"/></div><div className="about-copy"><div className="eyebrow"><span/> About Palapa</div><h2>Who we are?</h2><p>Palapa Coffee was founded from a simple conviction: remarkable Java coffee deserves a clear path to the world. Based in Bandung, we connect the work of West Java’s growers and processors with importers, independent roasters, and coffee shops who care about origin.</p><p>We are an export partner with our feet at origin. That means fewer layers, honest communication, and attention to the details that matter, from samples and specifications to preparation and shipment.</p><blockquote>“We want every relationship to feel as considered as the coffee itself.”</blockquote><div className="signature">Founder, Palapa Coffee<br/><span>Bandung · Indonesia</span></div></div><div className="about-pictures right"><img src={content.images.about[2]} alt="West Java coffee-growing landscape" loading="lazy" decoding="async"/><img src={content.images.about[3]} alt="Coffee cupping and quality evaluation" loading="lazy" decoding="async"/></div></section>
-  <section id="contact" className="contact"><div className="contact-title"><div><div className="eyebrow light"><span/> Let’s talk coffee</div><h2>Bring the taste of Java<br/><em>to your market.</em></h2></div><p>Tell us what you are looking for. We welcome sample requests, sourcing conversations, and long-term partnerships.</p></div><div className="contact-grid"><a href={content.links.whatsapp} target="_blank" rel="noreferrer"><MessageCircle/><span>WhatsApp</span><strong>Start a conversation</strong><ArrowUpRight className="corner"/></a><a href={`mailto:${content.links.email}`}><Mail/><span>Email</span><strong>{content.links.email}</strong><ArrowUpRight className="corner"/></a><div><MapPin/><span>Our base</span><strong>{content.address}</strong></div></div></section>
-  <footer><a className="brand" href="#top"><span>Palapa</span> Coffee</a><p>Green coffee from Bandung, Indonesia.</p><div><a href={content.links.whatsapp}>WhatsApp</a><a href={`mailto:${content.links.email}`}>Email</a><a href={content.links.instagram}>Instagram</a></div><small>© 2026 Palapa Coffee</small></footer>
-</main> }
+export default function Home() {
+  const [locale, setLocale] = useState<Locale>('en');
+  const t = languageData.translations[locale];
+
+  useEffect(() => {
+    document.documentElement.lang = locale;
+    document.documentElement.dir = locale === 'ar' ? 'rtl' : 'ltr';
+  }, [locale]);
+
+  return <main>
+    <a className="skip-link" href="#origin">{t.skip}</a>
+    <header className="site-header">
+      <a className="brand" href="#top" aria-label={t.home}><span>Palapa</span> Coffee</a>
+      <div className="header-actions">
+        <label className="language-picker"><span className="sr-only">Select language</span><select value={locale} onChange={(event) => setLocale(event.target.value as Locale)} aria-label="Select language">{languageData.languageOptions.map((language) => <option key={language.code} value={language.code}>{language.label}</option>)}</select></label>
+        <nav className="desktop-nav" aria-label="Primary navigation"><a href="#origin">{t.navOrigin}</a><a href="#quality">{t.navQuality}</a><a href="#about">{t.navAbout}</a><a className="contact-button" href="#contact">{t.navContact} <ArrowUpRight size={16} aria-hidden="true"/></a></nav>
+        <details className="mobile-nav"><summary aria-label={t.openMenu}><Menu aria-hidden="true"/></summary><nav aria-label="Mobile navigation"><a href="#origin">{t.navOrigin}</a><a href="#quality">{t.navQuality}</a><a href="#about">{t.navAbout}</a><a href="#contact">{t.navContact}</a></nav></details>
+      </div>
+    </header>
+    <a className="floating-whatsapp" href={content.links.whatsapp} target="_blank" rel="noreferrer" aria-label={t.chatWhatsapp}><WhatsAppIcon/><span>{t.chatLabel}</span></a>
+
+    <section id="top" className="hero" style={{backgroundImage:`linear-gradient(90deg,rgba(26,20,13,.82),rgba(26,20,13,.18)),url(${content.images.hero})`}}>
+      <div className="eyebrow light"><span/> {t.heroEyebrow}</div><h1>{t.heroTitle}</h1><p>{t.heroDescription}</p>
+      <div className="hero-actions"><a href="#origin">{t.discover} <ArrowDownRight size={17}/></a><span>{t.coordinates}</span></div>
+    </section>
+
+    <section id="origin" className="section origin">
+      <div className="section-heading"><div><div className="eyebrow"><span/> {t.originEyebrow}</div><h2>{t.originTitle}</h2></div><p>{t.originDescription}</p></div>
+      <div className="origin-image" style={{backgroundImage:`linear-gradient(rgba(24,38,25,.46),rgba(24,38,25,.46)),url(${content.images.origin})`}}><span>{t.altitude}</span><strong>{t.bandungHighlands}</strong></div>
+      <div className="process-grid">{t.processes.map((process,i)=><article key={i}><img src={content.images.process[i]} alt={`${process[0]} coffee production in West Java`} loading="lazy" decoding="async"/><div className="card-number">0{i+1}</div><h3>{process[0]}</h3><p>{process[1]}</p></article>)}</div>
+      <div className="video-heading"><div className="eyebrow"><span/> {t.processEyebrow}</div><h3>{t.processTitle}</h3></div>
+      <div className="video-grid">{content.videos.map((video,i)=><a key={video.id} href={video.url} target="_blank" rel="noreferrer" aria-label={`${t.watchVideo}: ${t.videoStory} 0${i+1}`}><img src={`https://i.ytimg.com/vi/${video.id}/hqdefault.jpg`} alt="" aria-hidden="true" loading="lazy" decoding="async"/><span className="video-number">0{i+1}</span><span className="play-button"><Play size={20} fill="currentColor" aria-hidden="true"/></span><strong>{t.videoStory} 0{i+1}</strong></a>)}</div>
+    </section>
+
+    <section id="quality" className="section quality">
+      <div className="quality-intro"><img src={content.images.quality} alt="Ripe coffee cherries being carefully selected" loading="lazy" decoding="async"/><div><div className="eyebrow light"><span/> {t.qualityEyebrow}</div><h2>{t.qualityTitle}</h2><p>{t.qualityDescription1}</p><p>{t.qualityDescription2}</p><a href="#contact">{t.offerList} <ArrowUpRight size={17} aria-hidden="true"/></a></div></div>
+      <div className="quality-grid">{t.qualities.map((quality,i)=><article key={i}><img src={content.images.qualityCards[i]} alt={`${quality[0]} coffee quality`} loading="lazy" decoding="async"/><span>0{i+1}</span><h3>{quality[0]}</h3><p>{quality[1]}</p></article>)}</div>
+    </section>
+
+    <section id="about" className="section about">
+      <div className="about-pictures left"><img src={content.images.about[0]} alt="Coffee farmer in Bandung" loading="lazy" decoding="async"/><img src={content.images.about[1]} alt="Coffee cherries ripening on a tree" loading="lazy" decoding="async"/></div>
+      <div className="about-copy"><div className="eyebrow"><span/> {t.aboutEyebrow}</div><h2>{t.aboutTitle}</h2><p>{t.aboutDescription1}</p><p>{t.aboutDescription2}</p><blockquote>“{t.quote}”</blockquote><div className="signature">{t.founder}<br/><span>{t.bandungIndonesia}</span></div></div>
+      <div className="about-pictures right"><img src={content.images.about[2]} alt="West Java coffee-growing landscape" loading="lazy" decoding="async"/><img src={content.images.about[3]} alt="Coffee cupping and quality evaluation" loading="lazy" decoding="async"/></div>
+    </section>
+
+    <section id="contact" className="contact">
+      <div className="contact-title"><div><div className="eyebrow light"><span/> {t.contactEyebrow}</div><h2>{t.contactTitle}</h2></div><p>{t.contactDescription}</p></div>
+      <div className="contact-grid"><a href={content.links.whatsapp} target="_blank" rel="noreferrer"><MessageCircle/><span>{t.whatsapp}</span><strong>{t.startConversation}</strong><ArrowUpRight className="corner"/></a><a href={`mailto:${content.links.email}`}><Mail/><span>{t.email}</span><strong>{content.links.email}</strong><ArrowUpRight className="corner"/></a><div><MapPin/><span>{t.ourBase}</span><strong>{content.address}</strong></div></div>
+    </section>
+    <footer><a className="brand" href="#top"><span>Palapa</span> Coffee</a><p>{t.footerTagline}</p><div><a href={content.links.whatsapp}>{t.whatsapp}</a><a href={`mailto:${content.links.email}`}>{t.email}</a><a href={content.links.instagram}>Instagram</a></div><small>© 2026 Palapa Coffee</small></footer>
+  </main>
+}

@@ -1,0 +1,1221 @@
+{
+  "languageOptions": [
+    {
+      "code": "en",
+      "label": "English"
+    },
+    {
+      "code": "ru",
+      "label": "Русский"
+    },
+    {
+      "code": "zh-CN",
+      "label": "简体中文"
+    },
+    {
+      "code": "hi",
+      "label": "हिन्दी"
+    },
+    {
+      "code": "ja",
+      "label": "日本語"
+    },
+    {
+      "code": "ko",
+      "label": "한국어"
+    },
+    {
+      "code": "th",
+      "label": "ไทย"
+    },
+    {
+      "code": "vi",
+      "label": "Tiếng Việt"
+    },
+    {
+      "code": "ms",
+      "label": "Bahasa Melayu"
+    },
+    {
+      "code": "id",
+      "label": "Bahasa Indonesia"
+    },
+    {
+      "code": "ms-BN",
+      "label": "Bahasa Melayu (Brunei)"
+    },
+    {
+      "code": "hy",
+      "label": "Հայերեն"
+    },
+    {
+      "code": "cs",
+      "label": "Čeština"
+    },
+    {
+      "code": "ar",
+      "label": "العربية الجزائرية"
+    },
+    {
+      "code": "ha",
+      "label": "Hausa"
+    }
+  ],
+  "translations": {
+    "en": {
+      "skip": "Skip to main content",
+      "home": "Palapa Coffee home",
+      "openMenu": "Open navigation menu",
+      "navOrigin": "Coffee Origin",
+      "navQuality": "Coffee Quality",
+      "navAbout": "About Us",
+      "navContact": "Contact Us",
+      "heroEyebrow": "From Java · To the world",
+      "heroTitle": "Bandung coffee, beautifully expressed.",
+      "heroDescription": "Green coffee rooted in the Sunda highlands, selected with care and prepared for roasters around the world.",
+      "discover": "Discover our origin",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "Coffee origin",
+      "originTitle": "Originated from the Land of Sunda.",
+      "originDescription": "Our coffee begins in the green folds of Bandung’s volcanic highlands. Cool air, generous rainfall, and mineral-rich soils let cherries mature slowly, building the sweetness and lively character that distinguish West Java in every cup.",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "Bandung Highlands",
+      "processes": [
+        [
+          "Cultivated",
+          "Grown by trusted smallholder partners across the cool, volcanic highlands surrounding Bandung."
+        ],
+        [
+          "Processed",
+          "Careful cherry selection and considered natural, washed, and honey processes reveal each lot’s character."
+        ],
+        [
+          "Prepared",
+          "Graded, cupped, and prepared for export with dependable documentation and lot traceability."
+        ]
+      ],
+      "processEyebrow": "From the process",
+      "processTitle": "Watch the work at origin.",
+      "videoStory": "Coffee process story",
+      "watchVideo": "Watch on YouTube",
+      "qualityEyebrow": "Coffee quality",
+      "qualityTitle": "Our oath is to give sustainable and natural coffee to the world.",
+      "qualityDescription1": "Quality starts long before a sample reaches the cupping table. We work close to origin, following every lot from cherry selection through processing and final preparation. That care creates green coffee with dependable physical quality, clear flavor, and a story buyers can stand behind.",
+      "qualityDescription2": "Our approach is practical and personal: listen to growers, protect the character of each harvest, and give importers and roasters the information they need to buy with confidence.",
+      "offerList": "Request our current offer list",
+      "qualities": [
+        [
+          "Specialty grade",
+          "Selected lots scoring 80+ with clear provenance and a clean, expressive cup."
+        ],
+        [
+          "Natural character",
+          "Sweet, fruit-led profiles shaped by the soil, elevation, and patient processing."
+        ],
+        [
+          "Responsible supply",
+          "Long-term farmer relationships support fairer value and resilient harvests."
+        ],
+        [
+          "Export ready",
+          "Consistent preparation, secure packaging, and practical support from sample to shipment."
+        ]
+      ],
+      "aboutEyebrow": "About Palapa",
+      "aboutTitle": "Who we are?",
+      "aboutDescription1": "Palapa Coffee was founded from a simple conviction: remarkable Java coffee deserves a clear path to the world. Based in Bandung, we connect the work of West Java’s growers and processors with importers, independent roasters, and coffee shops who care about origin.",
+      "aboutDescription2": "We are an export partner with our feet at origin. That means fewer layers, honest communication, and attention to the details that matter, from samples and specifications to preparation and shipment.",
+      "quote": "We want every relationship to feel as considered as the coffee itself.",
+      "founder": "Founder, Palapa Coffee",
+      "bandungIndonesia": "Bandung · Indonesia",
+      "contactEyebrow": "Let’s talk coffee",
+      "contactTitle": "Bring the taste of Java to your market.",
+      "contactDescription": "Tell us what you are looking for. We welcome sample requests, sourcing conversations, and long-term partnerships.",
+      "whatsapp": "WhatsApp",
+      "startConversation": "Start a conversation",
+      "email": "Email",
+      "ourBase": "Our base",
+      "footerTagline": "Green coffee from Bandung, Indonesia.",
+      "chatWhatsapp": "Chat with Palapa Coffee on WhatsApp",
+      "chatLabel": "Chat on WhatsApp"
+    },
+    "ru": {
+      "skip": "Перейти к основному содержанию",
+      "home": "Кофейня Палапа",
+      "openMenu": "Открыть меню навигации",
+      "navOrigin": "Происхождение кофе",
+      "navQuality": "Качество кофе",
+      "navAbout": "О нас",
+      "navContact": "Связаться с нами",
+      "heroEyebrow": "С Явы · В мир",
+      "heroTitle": "Бандунгский кофе в прекрасной выраженности.",
+      "heroDescription": "Зеленый кофе, произрастающий в высокогорье Сунда, тщательно отобранный и приготовленный для обжарщиков по всему миру.",
+      "discover": "Откройте для себя наше происхождение",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "Происхождение кофе",
+      "originTitle": "Родом из Земли Сунда.",
+      "originDescription": "Наш кофе начинается в зеленых складках вулканического нагорья Бандунга. Прохладный воздух, обильные осадки и богатая минералами почва позволяют вишне созревать медленно, создавая сладость и живой характер, которые отличают Западную Яву в каждой чашке.",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "Бандунг Хайлендс",
+      "processes": [
+        [
+          "культивированный",
+          "Выращен надежными партнерами-мелкими фермерами на прохладных вулканических высокогорьях, окружающих Бандунг."
+        ],
+        [
+          "Обработано",
+          "Тщательный отбор вишни, а также натуральные, мытые и медовые процессы раскрывают характер каждого лота."
+        ],
+        [
+          "Готовый",
+          "Отсортировано, упаковано и подготовлено к экспорту с использованием надежной документации и отслеживания партии."
+        ]
+      ],
+      "processEyebrow": "Из процесса",
+      "processTitle": "Посмотрите работу в начале.",
+      "videoStory": "История процесса приготовления кофе",
+      "watchVideo": "Смотреть на YouTube",
+      "qualityEyebrow": "Качество кофе",
+      "qualityTitle": "Наша клятва – дать миру экологически чистый и натуральный кофе.",
+      "qualityDescription1": "Качество начинается задолго до того, как образец попадает на стол для каппинга. Мы работаем близко к месту происхождения, следя за каждой партией, от выбора черешни до обработки и окончательной подготовки. Такая забота создает зеленый кофе с надежным физическим качеством, чистым вкусом и историей, которую могут поддержать покупатели.",
+      "qualityDescription2": "Наш подход практичен и индивидуален: прислушивайтесь к производителям, защищайте характеристики каждого урожая и предоставляйте импортерам и обжарщикам информацию, необходимую им для уверенных покупок.",
+      "offerList": "Запросите наш текущий список предложений",
+      "qualities": [
+        [
+          "Специальность",
+          "Избранные лоты с рейтингом 80+, четким происхождением и чистой, выразительной чашкой."
+        ],
+        [
+          "Естественный характер",
+          "Сладкие фруктовые профили, сформированные почвой, высотой и терпеливой обработкой."
+        ],
+        [
+          "Ответственная поставка",
+          "Долгосрочные отношения с фермерами способствуют более справедливой стоимости и устойчивым урожаям."
+        ],
+        [
+          "Экспорт готов",
+          "Последовательная подготовка, надежная упаковка и практическая поддержка от образца до отгрузки."
+        ]
+      ],
+      "aboutEyebrow": "О Палапе",
+      "aboutTitle": "Кто мы?",
+      "aboutDescription1": "Компания Palapa Coffee была основана на простом убеждении: замечательный яванский кофе заслуживает открытого пути в мир. Находясь в Бандунге, мы связываем работу производителей и переработчиков Западной Явы с импортерами, независимыми обжарщиками и кофейнями, которые заботятся о происхождении.",
+      "aboutDescription2": "Мы являемся экспортным партнером, стоящим на месте происхождения. Это означает меньшее количество слоев, честное общение и внимание к важным деталям, от образцов и спецификаций до подготовки и отгрузки.",
+      "quote": "Мы хотим, чтобы каждые отношения были такими же важными, как и сам кофе.",
+      "founder": "Основатель компании Palapa Coffee",
+      "bandungIndonesia": "Бандунг · Индонезия",
+      "contactEyebrow": "Поговорим о кофе",
+      "contactTitle": "Принесите вкус Java на свой рынок.",
+      "contactDescription": "Расскажите нам, что вы ищете. Мы приветствуем запросы образцов, переговоры о поиске и долгосрочное партнерство.",
+      "whatsapp": "WhatsApp",
+      "startConversation": "Начать разговор",
+      "email": "Электронная почта",
+      "ourBase": "Наша база",
+      "footerTagline": "Зеленый кофе из Бандунга, Индонезия.",
+      "chatWhatsapp": "Общайтесь с Palapa Coffee в WhatsApp",
+      "chatLabel": "Чат в WhatsApp"
+    },
+    "zh-CN": {
+      "skip": "跳至主要内容",
+      "home": "帕拉帕咖啡之家",
+      "openMenu": "打开导航菜单",
+      "navOrigin": "咖啡原产地",
+      "navQuality": "咖啡品质",
+      "navAbout": "关于我们",
+      "navContact": "联系我们",
+      "heroEyebrow": "从爪哇·走向世界",
+      "heroTitle": "万隆咖啡，精美表达。",
+      "heroDescription": "植根于巽他高原的咖啡生豆，经过精心挑选，为世界各地的烘焙商准备。",
+      "discover": "发现我们的起源",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "咖啡原产地",
+      "originTitle": "起源于巽他之地。",
+      "originDescription": "我们的咖啡始于万隆火山高地的绿色褶皱。凉爽的空气、充沛的降雨和富含矿物质的土壤让樱桃慢慢成熟，在每一杯樱桃中营造出西爪哇独有的甜味和活泼的特征。",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "万隆高原",
+      "processes": [
+        [
+          "栽培的",
+          "由值得信赖的小农合作伙伴在万隆周围凉爽的火山高地种植。"
+        ],
+        [
+          "已加工",
+          "精心挑选的樱桃以及经过深思熟虑的天然、水洗和蜂蜜加工流程揭示了每批樱桃的特色。"
+        ],
+        [
+          "准备好了",
+          "通过可靠的文件和批次可追溯性进行分级、杯测和准备出口。"
+        ]
+      ],
+      "processEyebrow": "从流程来看",
+      "processTitle": "观看原点的作品。",
+      "videoStory": "咖啡制作过程故事",
+      "watchVideo": "在 YouTube 上观看",
+      "qualityEyebrow": "咖啡品质",
+      "qualityTitle": "我们的誓言是为世界提供可持续的天然咖啡。",
+      "qualityDescription1": "质量早在样品到达杯测台之前就开始了。我们紧邻原产地，跟踪从樱桃挑选到加工和最终准备的每一个批次。这种精心呵护创造出具有可靠物理品质、清晰风味和买家可以信赖的故事的生咖啡。",
+      "qualityDescription2": "我们的方法既实用又个性化：倾听种植者的意见，保护每次收获的特性，并为进口商和烘焙商提供他们放心购买所需的信息。",
+      "offerList": "索取我们当前的报价清单",
+      "qualities": [
+        [
+          "特级",
+          "精选批次得分超过 80，出处清晰，杯子干净、富有表现力。"
+        ],
+        [
+          "自然性格",
+          "甜甜的、以水果为主的轮廓是由土壤、海拔和耐心的加工形成的。"
+        ],
+        [
+          "负责任的供应",
+          "长期的农民关系支持更公平的价值和有弹性的收成。"
+        ],
+        [
+          "出口准备就绪",
+          "从样品到装运的一致准备、安全包装和实际支持。"
+        ]
+      ],
+      "aboutEyebrow": "关于帕拉帕",
+      "aboutTitle": "我们是谁？",
+      "aboutDescription1": "Palapa Coffee 的创立源于一个简单的信念：卓越的爪哇咖啡应该有一条通向世界的清晰道路。我们总部位于万隆，将西爪哇种植者和加工者的工作与关心原产地的进口商、独立烘焙商和咖啡店联系起来。",
+      "aboutDescription2": "我们是出口合作伙伴，立足于原产地。这意味着更少的层次、诚实的沟通以及对重要细节的关注，从样品和规格到准备和运输。",
+      "quote": "我们希望每一段关系都像咖啡本身一样受到重视。",
+      "founder": "帕拉帕咖啡创始人",
+      "bandungIndonesia": "万隆·印度尼西亚",
+      "contactEyebrow": "我们来谈谈咖啡",
+      "contactTitle": "将 Java 的味道带入您的市场。",
+      "contactDescription": "告诉我们您在寻找什么。我们欢迎样品请求、采购对话和长期合作伙伴关系。",
+      "whatsapp": "WhatsApp",
+      "startConversation": "开始对话",
+      "email": "电子邮件",
+      "ourBase": "我们的基地",
+      "footerTagline": "来自印度尼西亚万隆的绿咖啡。",
+      "chatWhatsapp": "在 WhatsApp 上与 Palapa Coffee 聊天",
+      "chatLabel": "在 WhatsApp 上聊天"
+    },
+    "hi": {
+      "skip": "मुख्य सामग्री पर जाएँ",
+      "home": "पलापा कॉफ़ी होम",
+      "openMenu": "नेविगेशन मेनू खोलें",
+      "navOrigin": "कॉफ़ी की उत्पत्ति",
+      "navQuality": "कॉफ़ी की गुणवत्ता",
+      "navAbout": "हमारे बारे में",
+      "navContact": "हमसे संपर्क करें",
+      "heroEyebrow": "जावा से · दुनिया तक",
+      "heroTitle": "बांडुंग कॉफ़ी, खूबसूरती से अभिव्यक्त।",
+      "heroDescription": "ग्रीन कॉफ़ी की जड़ें सुंडा हाइलैंड्स में हैं, देखभाल के साथ चुनी गई और दुनिया भर में रोस्टरों के लिए तैयार की गई।",
+      "discover": "हमारे मूल की खोज करें",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "कॉफ़ी की उत्पत्ति",
+      "originTitle": "सुंडा की भूमि से उत्पन्न।",
+      "originDescription": "हमारी कॉफ़ी बांडुंग के ज्वालामुखीय उच्चभूमि की हरी परतों में शुरू होती है। ठंडी हवा, प्रचुर वर्षा और खनिज-समृद्ध मिट्टी चेरी को धीरे-धीरे परिपक्व होने देती है, जिससे मिठास और जीवंत चरित्र का निर्माण होता है जो हर कप में पश्चिम जावा को अलग करता है।",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "बांडुंग हाइलैंड्स",
+      "processes": [
+        [
+          "खेती",
+          "बांडुंग के आसपास के शांत, ज्वालामुखीय उच्चभूमियों में विश्वसनीय छोटे धारक भागीदारों द्वारा उगाया गया।"
+        ],
+        [
+          "प्रसंस्कृत",
+          "चेरी का सावधानीपूर्वक चयन और प्राकृतिक, धुली और शहद प्रक्रियाओं पर विचार करने से प्रत्येक लॉट के चरित्र का पता चलता है।"
+        ],
+        [
+          "तैयार",
+          "भरोसेमंद दस्तावेज़ीकरण और लॉट ट्रैसेबिलिटी के साथ वर्गीकृत, क्यूप्ड और निर्यात के लिए तैयार।"
+        ]
+      ],
+      "processEyebrow": "प्रक्रिया से",
+      "processTitle": "मूल रूप से कार्य देखें.",
+      "videoStory": "कॉफ़ी प्रक्रिया कहानी",
+      "watchVideo": "यूट्यूब पर देखें",
+      "qualityEyebrow": "कॉफ़ी की गुणवत्ता",
+      "qualityTitle": "हमारी शपथ दुनिया को टिकाऊ और प्राकृतिक कॉफी देने की है।",
+      "qualityDescription1": "किसी नमूने के कपिंग टेबल तक पहुंचने से बहुत पहले ही गुणवत्ता शुरू हो जाती है। हम चेरी के चयन से लेकर प्रसंस्करण और अंतिम तैयारी तक हर चीज का पालन करते हुए, मूल के करीब काम करते हैं। वह देखभाल भरोसेमंद भौतिक गुणवत्ता, स्पष्ट स्वाद और एक ऐसी कहानी के साथ ग्रीन कॉफ़ी बनाती है जिसके पीछे खरीदार खड़े हो सकते हैं।",
+      "qualityDescription2": "हमारा दृष्टिकोण व्यावहारिक और व्यक्तिगत है: उत्पादकों को सुनें, प्रत्येक फसल के चरित्र की रक्षा करें, और आयातकों और भूनने वालों को आत्मविश्वास के साथ खरीदने के लिए आवश्यक जानकारी दें।",
+      "offerList": "हमारी वर्तमान प्रस्ताव सूची का अनुरोध करें",
+      "qualities": [
+        [
+          "विशेष ग्रेड",
+          "चयनित लॉट ने स्पष्ट उद्गम और स्वच्छ, अभिव्यंजक कप के साथ 80+ स्कोर किया।"
+        ],
+        [
+          "प्राकृतिक चरित्र",
+          "मीठे, फलयुक्त प्रोफाइल को मिट्टी, ऊंचाई और रोगी प्रसंस्करण द्वारा आकार दिया गया है।"
+        ],
+        [
+          "जिम्मेदार आपूर्ति",
+          "दीर्घकालिक किसान संबंध उचित मूल्य और लचीली फसल का समर्थन करते हैं।"
+        ],
+        [
+          "निर्यात तैयार",
+          "लगातार तैयारी, सुरक्षित पैकेजिंग और नमूने से लेकर शिपमेंट तक व्यावहारिक सहायता।"
+        ]
+      ],
+      "aboutEyebrow": "पलापा के बारे में",
+      "aboutTitle": "हम जो हैं?",
+      "aboutDescription1": "पलापा कॉफ़ी की स्थापना एक साधारण विश्वास से की गई थी: उल्लेखनीय जावा कॉफ़ी दुनिया के लिए एक स्पष्ट मार्ग की हकदार है। बांडुंग में स्थित, हम पश्चिम जावा के उत्पादकों और प्रोसेसरों के काम को आयातकों, स्वतंत्र रोस्टरों और कॉफी की दुकानों से जोड़ते हैं जो उत्पत्ति की परवाह करते हैं।",
+      "aboutDescription2": "हम मूल रूप से अपने पैरों के साथ एक निर्यात भागीदार हैं। इसका मतलब है कि कम परतें, ईमानदार संचार और नमूनों और विशिष्टताओं से लेकर तैयारी और शिपमेंट तक महत्वपूर्ण विवरणों पर ध्यान देना।",
+      "quote": "हम चाहते हैं कि हर रिश्ता कॉफ़ी जैसा ही महसूस हो।",
+      "founder": "संस्थापक, पालापा कॉफ़ी",
+      "bandungIndonesia": "बांडुंग · इंडोनेशिया",
+      "contactEyebrow": "चलो कॉफी पर बात करते हैं",
+      "contactTitle": "जावा का स्वाद अपने बाज़ार में लाएँ।",
+      "contactDescription": "हमें बताएं आप किसकी तलाश में हैं। हम नमूना अनुरोधों, सोर्सिंग वार्तालापों और दीर्घकालिक साझेदारियों का स्वागत करते हैं।",
+      "whatsapp": "WhatsApp",
+      "startConversation": "एक बातचीत शुरू",
+      "email": "ईमेल",
+      "ourBase": "हमारा आधार",
+      "footerTagline": "बांडुंग, इंडोनेशिया से ग्रीन कॉफ़ी।",
+      "chatWhatsapp": "व्हाट्सएप पर पलापा कॉफ़ी के साथ चैट करें",
+      "chatLabel": "व्हाट्सएप पर चैट करें"
+    },
+    "ja": {
+      "skip": "メインコンテンツにスキップ",
+      "home": "パラパコーヒーホーム",
+      "openMenu": "ナビゲーションメニューを開く",
+      "navOrigin": "コーヒーの起源",
+      "navQuality": "コーヒーの品質",
+      "navAbout": "私たちについて",
+      "navContact": "お問い合わせ",
+      "heroEyebrow": "Javaから世界へ",
+      "heroTitle": "美しく表現されたバンドンコーヒー。",
+      "heroDescription": "スンダ高地に根ざした生のコーヒーは、慎重に選ばれ、世界中の焙煎業者のために準備されています。",
+      "discover": "私たちの原点を発見してください",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "コーヒーの起源",
+      "originTitle": "スンダの国出身。",
+      "originDescription": "私たちのコーヒーはバンドンの火山高地の緑の襞から始まります。冷たい空気、豊富な降雨、ミネラル豊富な土壌により、サクランボはゆっくりと成熟し、どのカップでも西ジャワの特徴である甘さと生き生きとした特徴が構築されます。",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "バンドン高地",
+      "processes": [
+        [
+          "栽培された",
+          "バンドンを囲む涼しい火山性の高地で、信頼できる小規模農家のパートナーによって栽培されています。"
+        ],
+        [
+          "加工済み",
+          "慎重にチェリーを選択し、ナチュラル、ウォッシュ、ハニーのプロセスを考慮して、各ロットの特徴を明らかにします。"
+        ],
+        [
+          "準備した",
+          "信頼できる文書とロットの追跡可能性により、等級分けされ、カップに詰められ、輸出用に準備されます。"
+        ]
+      ],
+      "processEyebrow": "プロセスから",
+      "processTitle": "原点にある作品をご覧ください。",
+      "videoStory": "コーヒーのプロセスストーリー",
+      "watchVideo": "YouTubeで見る",
+      "qualityEyebrow": "コーヒーの品質",
+      "qualityTitle": "私たちの誓いは、持続可能で自然なコーヒーを世界に提供することです。",
+      "qualityDescription1": "品質は、サンプルがカッピング テーブルに到着するずっと前から始まります。私たちは、サクランボの選別から加工、最終準備に至るまで、すべてのロットを追跡し、産地に近い状態で取り組んでいます。この配慮により、信頼できる物理的品質、クリアな風味、そして購入者が支持できるストーリーを備えた生のコーヒーが生まれます。",
+      "qualityDescription2": "私たちのアプローチは実践的で個人的なものです。生産者の声に耳を傾け、それぞれの収穫の特徴を守り、輸入業者や焙煎業者に安心して購入するために必要な情報を提供します。",
+      "offerList": "現在のオファーリストをリクエストしてください",
+      "qualities": [
+        [
+          "特殊グレード",
+          "明確な出自とクリーンで表現力豊かなカップを備えた、80 以上のスコアを獲得した厳選されたロット。"
+        ],
+        [
+          "自然な性格",
+          "土壌、標高、そして忍耐強い加工によって形作られた、甘くて果実主導のプロファイル。"
+        ],
+        [
+          "責任ある供給",
+          "農家との長期的な関係は、より公正な価値と回復力のある収穫をサポートします。"
+        ],
+        [
+          "輸出準備完了",
+          "一貫した準備、安全な梱包、サンプルから出荷までの実践的なサポート。"
+        ]
+      ],
+      "aboutEyebrow": "パラパについて",
+      "aboutTitle": "私たちは誰ですか?",
+      "aboutDescription1": "パラパ コーヒーは、優れたジャワ コーヒーは世界へ明確な道を歩むに値するというシンプルな信念から設立されました。バンドンを拠点とする私たちは、西ジャワの生産者や加工業者の仕事を、産地にこだわる輸入業者、独立焙煎業者、コーヒーショップと結び付けます。",
+      "aboutDescription2": "私たちは原点に立つ輸出パートナーです。これは、レイヤーの数が減り、誠実なコミュニケーションが行われ、サンプルや仕様から準備と出荷に至るまで重要な詳細に注意が払われることを意味します。",
+      "quote": "私たちは、あらゆる関係をコーヒーそのもののように感じてもらいたいと考えています。",
+      "founder": "パラパコーヒー創業者",
+      "bandungIndonesia": "バンドン · インドネシア",
+      "contactEyebrow": "コーヒーについて話しましょう",
+      "contactTitle": "Java の味をあなたの市場にもたらします。",
+      "contactDescription": "あなたが探しているものを教えてください。サンプルのリクエスト、調達に関する会話、長期的なパートナーシップを歓迎します。",
+      "whatsapp": "ワッツアップ",
+      "startConversation": "会話を始める",
+      "email": "電子メール",
+      "ourBase": "私たちの拠点",
+      "footerTagline": "インドネシア・バンドン産のグリーンコーヒーです。",
+      "chatWhatsapp": "WhatsApp で Palapa Coffee とチャットする",
+      "chatLabel": "WhatsAppでチャットする"
+    },
+    "ko": {
+      "skip": "주요 콘텐츠로 건너뛰기",
+      "home": "팔라파 커피 홈",
+      "openMenu": "탐색 메뉴 열기",
+      "navOrigin": "커피 원산지",
+      "navQuality": "커피 품질",
+      "navAbout": "회사 소개",
+      "navContact": "문의하기",
+      "heroEyebrow": "Java에서 세계로",
+      "heroTitle": "아름답게 표현된 반둥 커피.",
+      "heroDescription": "순다 고원에 뿌리를 둔 그린 커피를 엄선하여 전 세계 로스터를 위해 준비했습니다.",
+      "discover": "우리의 기원을 알아보세요",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "커피 원산지",
+      "originTitle": "순다국 출신.",
+      "originDescription": "우리의 커피는 반둥 화산 고지대의 녹색 지대에서 시작됩니다. 시원한 공기, 넉넉한 강수량, 미네랄이 풍부한 토양 덕분에 체리가 천천히 숙성되어 모든 잔에서 서부 자바를 특징짓는 단맛과 생동감 넘치는 특성이 형성됩니다.",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "반둥 고원",
+      "processes": [
+        [
+          "교양 있는",
+          "반둥 주변의 시원한 화산 고지대에 걸쳐 신뢰할 수 있는 소규모 자작농 파트너가 재배합니다."
+        ],
+        [
+          "처리됨",
+          "신중한 체리 선택과 천연, 워시, 허니 공정을 고려하여 각 로트의 특성을 드러냅니다."
+        ],
+        [
+          "준비됨",
+          "신뢰할 수 있는 문서화 및 로트 추적성을 통해 등급화, 컵핑 및 수출 준비가 완료되었습니다."
+        ]
+      ],
+      "processEyebrow": "프로세스에서",
+      "processTitle": "원산지에서 작품을 감상하세요.",
+      "videoStory": "커피 과정 이야기",
+      "watchVideo": "YouTube에서 시청하기",
+      "qualityEyebrow": "커피 품질",
+      "qualityTitle": "우리의 맹세는 지속 가능한 천연 커피를 세상에 제공하는 것입니다.",
+      "qualityDescription1": "품질은 샘플이 커핑 테이블에 도달하기 오래 전에 시작됩니다. 우리는 체리 선택부터 가공, 최종 준비까지 모든 로트를 따라 원산지에 가깝게 작업합니다. 이러한 관리를 통해 신뢰할 수 있는 물리적 품질, 명확한 맛, 구매자가 지지할 수 있는 스토리를 갖춘 생두 커피가 만들어집니다.",
+      "qualityDescription2": "우리의 접근 방식은 실용적이고 개인적입니다. 재배자의 의견을 경청하고, 각 수확의 특성을 보호하며, 수입업자와 로스터에게 자신있게 구매하는 데 필요한 정보를 제공합니다.",
+      "offerList": "현재 제안 목록 요청",
+      "qualities": [
+        [
+          "특수 등급",
+          "명확한 출처와 깨끗하고 표현력이 풍부한 컵으로 80점 이상의 점수를 받은 엄선된 로트입니다."
+        ],
+        [
+          "자연스러운 성격",
+          "토양, 고도 및 인내심을 갖고 가공한 달콤한 과일 중심 프로필입니다."
+        ],
+        [
+          "책임 있는 공급",
+          "장기적인 농부 관계는 보다 공정한 가치와 회복력 있는 수확을 지원합니다."
+        ],
+        [
+          "수출 준비 완료",
+          "일관된 준비, 안전한 포장, 샘플부터 배송까지 실질적인 지원을 제공합니다."
+        ]
+      ],
+      "aboutEyebrow": "팔라파 소개",
+      "aboutTitle": "우리는 누구입니까?",
+      "aboutDescription1": "Palapa Coffee는 놀라운 자바 커피가 세계로 향하는 명확한 길을 열어줄 자격이 있다는 단순한 확신에서 설립되었습니다. 반둥에 본사를 두고 있는 우리는 서부 자바의 재배자와 가공업자의 작업을 원산지에 관심이 있는 수입업자, 독립 로스터, 커피숍과 연결합니다.",
+      "aboutDescription2": "우리는 원산지에 발을 들여 놓은 수출 파트너입니다. 이는 샘플 및 사양부터 준비 및 배송에 이르기까지 더 적은 수의 레이어, 정직한 의사소통, 중요한 세부 사항에 대한 관심을 의미합니다.",
+      "quote": "우리는 모든 관계가 커피 그 자체처럼 느껴지기를 바랍니다.",
+      "founder": "팔라파 커피 창업자",
+      "bandungIndonesia": "반둥 · 인도네시아",
+      "contactEyebrow": "커피얘기하자",
+      "contactTitle": "Java의 맛을 시장에 선보이세요.",
+      "contactDescription": "당신이 찾고 있는 것이 무엇인지 알려주세요. 샘플 요청, 소싱 대화 및 장기적인 파트너십을 환영합니다.",
+      "whatsapp": "왓츠앱",
+      "startConversation": "대화 시작",
+      "email": "이메일",
+      "ourBase": "우리의 기지",
+      "footerTagline": "인도네시아 반둥 지역의 그린 커피입니다.",
+      "chatWhatsapp": "WhatsApp에서 Palapa Coffee와 채팅하세요",
+      "chatLabel": "WhatsApp에서 채팅"
+    },
+    "th": {
+      "skip": "ข้ามไปที่เนื้อหาหลัก",
+      "home": "บ้านปาลาภาคอฟฟี่",
+      "openMenu": "เปิดเมนูการนำทาง",
+      "navOrigin": "ต้นกำเนิดกาแฟ",
+      "navQuality": "คุณภาพกาแฟ",
+      "navAbout": "เกี่ยวกับเรา",
+      "navContact": "ติดต่อเรา",
+      "heroEyebrow": "จากชวา·สู่โลก",
+      "heroTitle": "กาแฟบันดุงแสดงออกอย่างสวยงาม",
+      "heroDescription": "กาแฟสีเขียวที่มีรากฐานมาจากที่ราบสูงซุนดา คัดสรรด้วยความเอาใจใส่และเตรียมพร้อมสำหรับผู้คั่วทั่วโลก",
+      "discover": "ค้นพบต้นกำเนิดของเรา",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "แหล่งกำเนิดกาแฟ",
+      "originTitle": "มีต้นกำเนิดมาจากดินแดนซุนดา",
+      "originDescription": "กาแฟของเราเริ่มต้นจากพื้นที่สีเขียวบนที่ราบสูงภูเขาไฟในบันดุง อากาศเย็น ปริมาณน้ำฝนที่พอเหมาะ และดินที่อุดมด้วยแร่ธาตุช่วยให้เชอร์รี่เติบโตช้า สร้างความหวานและลักษณะที่มีชีวิตชีวาที่ทำให้ชวาตะวันตกโดดเด่นในทุกถ้วย",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "บันดุงไฮแลนด์",
+      "processes": [
+        [
+          "ปลูกฝัง",
+          "เติบโตโดยหุ้นส่วนเกษตรกรรายย่อยที่เชื่อถือได้บนที่ราบสูงภูเขาไฟที่เย็นสบายรอบๆ บันดุง"
+        ],
+        [
+          "ดำเนินการแล้ว",
+          "การคัดเลือกเชอร์รี่อย่างระมัดระวังและกระบวนการทางธรรมชาติ การล้าง และน้ำผึ้งเผยให้เห็นถึงลักษณะของแต่ละล็อต"
+        ],
+        [
+          "เตรียมไว้",
+          "คัดเกรด บรรจุถ้วย และเตรียมพร้อมสำหรับการส่งออกด้วยเอกสารที่เชื่อถือได้และสามารถตรวจสอบย้อนกลับได้"
+        ]
+      ],
+      "processEyebrow": "จากกระบวนการ",
+      "processTitle": "ชมผลงานได้ที่.",
+      "videoStory": "เรื่องราวกระบวนการกาแฟ",
+      "watchVideo": "ดูบน YouTube",
+      "qualityEyebrow": "คุณภาพกาแฟ",
+      "qualityTitle": "คำสาบานของเราคือการมอบกาแฟที่เป็นธรรมชาติและยั่งยืนให้กับโลก",
+      "qualityDescription1": "คุณภาพเริ่มต้นเป็นเวลานานก่อนที่ตัวอย่างจะไปถึงโต๊ะครอบแก้ว เราทำงานอย่างใกล้ชิดกับแหล่งกำเนิด ติดตามทุกล็อตตั้งแต่การคัดเลือกเชอร์รี่ไปจนถึงการประมวลผลและการเตรียมขั้นสุดท้าย ความเอาใจใส่ดังกล่าวทำให้เกิดกาแฟสีเขียวที่มีคุณภาพทางกายภาพที่เชื่อถือได้ รสชาติที่ชัดเจน และเรื่องราวที่ผู้ซื้อสามารถยืนหยัดได้",
+      "qualityDescription2": "แนวทางของเราปฏิบัติได้จริงและเป็นส่วนตัว: รับฟังผู้ปลูก ปกป้องลักษณะของการเก็บเกี่ยวแต่ละครั้ง และให้ข้อมูลที่จำเป็นแก่ผู้นำเข้าและผู้คั่วในการซื้อด้วยความมั่นใจ",
+      "offerList": "ขอรายการข้อเสนอปัจจุบันของเรา",
+      "qualities": [
+        [
+          "เกรดพิเศษ",
+          "ล็อตที่เลือกซึ่งให้คะแนน 80+ พร้อมแหล่งที่มาที่ชัดเจนและถ้วยที่สะอาดและแสดงออกได้"
+        ],
+        [
+          "ลักษณะที่เป็นธรรมชาติ",
+          "โปรไฟล์ที่นำโดยผลไม้อันแสนหวานซึ่งมีรูปร่างตามดิน ระดับความสูง และการประมวลผลโดยผู้ป่วย"
+        ],
+        [
+          "อุปทานที่มีความรับผิดชอบ",
+          "ความสัมพันธ์ระยะยาวของเกษตรกรสนับสนุนมูลค่าที่ยุติธรรมและผลผลิตที่ฟื้นตัวได้"
+        ],
+        [
+          "พร้อมส่งออก",
+          "การเตรียมการที่สม่ำเสมอ การบรรจุหีบห่อที่ปลอดภัย และการสนับสนุนในทางปฏิบัติตั้งแต่ตัวอย่างไปจนถึงการจัดส่ง"
+        ]
+      ],
+      "aboutEyebrow": "เกี่ยวกับ ปาลาปา",
+      "aboutTitle": "เราเป็นใคร?",
+      "aboutDescription1": "Palapa Coffee ก่อตั้งขึ้นจากความเชื่อมั่นที่เรียบง่าย: กาแฟ Java ที่โดดเด่นคู่ควรกับเส้นทางที่ชัดเจนสู่โลก ซึ่งตั้งอยู่ในบันดุง เราเชื่อมโยงงานของผู้ปลูกและผู้แปรรูปของชวาตะวันตกกับผู้นำเข้า ผู้คั่วกาแฟอิสระ และร้านกาแฟที่ใส่ใจในแหล่งกำเนิด",
+      "aboutDescription2": "เราเป็นหุ้นส่วนการส่งออกโดยคำนึงถึงจุดเริ่มต้น นั่นหมายถึงมีเลเยอร์น้อยลง การสื่อสารที่ซื่อสัตย์ และความใส่ใจในรายละเอียดที่สำคัญ ตั้งแต่ตัวอย่างและข้อกำหนดเฉพาะไปจนถึงการเตรียมและการจัดส่ง",
+      "quote": "เราต้องการให้ทุกความสัมพันธ์รู้สึกเหมือนถูกมองว่าเป็นกาแฟ",
+      "founder": "ผู้ก่อตั้ง ปาลาปา คอฟฟี่",
+      "bandungIndonesia": "บันดุง · อินโดนีเซีย",
+      "contactEyebrow": "มาคุยกันเรื่องกาแฟกันดีกว่า",
+      "contactTitle": "นำรสชาติของชวามาสู่ตลาดของคุณ",
+      "contactDescription": "บอกเราสิ่งที่คุณกำลังมองหา เรายินดีรับคำขอตัวอย่าง การจัดหาการสนทนา และความร่วมมือระยะยาว",
+      "whatsapp": "วอทส์แอพพ์",
+      "startConversation": "เริ่มการสนทนา",
+      "email": "อีเมล",
+      "ourBase": "ฐานของเรา",
+      "footerTagline": "กาแฟเขียวจากบันดุง อินโดนีเซีย",
+      "chatWhatsapp": "แชทกับ Palapa Coffee บน WhatsApp",
+      "chatLabel": "แชทบน WhatsApp"
+    },
+    "vi": {
+      "skip": "Chuyển đến nội dung chính",
+      "home": "Nhà cà phê Palapa",
+      "openMenu": "Mở menu điều hướng",
+      "navOrigin": "Nguồn gốc cà phê",
+      "navQuality": "Chất lượng cà phê",
+      "navAbout": "Về chúng tôi",
+      "navContact": "Liên hệ với chúng tôi",
+      "heroEyebrow": "Từ Java · Ra thế giới",
+      "heroTitle": "Cà phê Bandung, được thể hiện rất đẹp.",
+      "heroDescription": "Cà phê xanh có nguồn gốc từ vùng cao nguyên Sunda, được lựa chọn cẩn thận và chuẩn bị cho các nhà rang xay trên khắp thế giới.",
+      "discover": "Khám phá nguồn gốc của chúng tôi",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "Nguồn gốc cà phê",
+      "originTitle": "Có nguồn gốc từ vùng đất Sunda.",
+      "originDescription": "Cà phê của chúng tôi bắt đầu từ những nếp gấp xanh tươi của vùng cao nguyên núi lửa Bandung. Không khí mát mẻ, lượng mưa dồi dào và đất giàu khoáng chất giúp quả anh đào trưởng thành chậm rãi, tạo nên nét đặc trưng sống động và ngọt ngào tạo nên nét đặc trưng của Tây Java trong mỗi cốc cà phê.",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "Cao nguyên Bandung",
+      "processes": [
+        [
+          "trồng trọt",
+          "Được trồng bởi các đối tác nông hộ nhỏ đáng tin cậy trên khắp vùng cao nguyên núi lửa mát mẻ xung quanh Bandung."
+        ],
+        [
+          "Đã xử lý",
+          "Việc lựa chọn anh đào cẩn thận và xem xét các quy trình tự nhiên, rửa sạch và mật ong sẽ tiết lộ đặc điểm của từng lô."
+        ],
+        [
+          "Chuẩn bị",
+          "Phân loại, tách và chuẩn bị xuất khẩu với tài liệu đáng tin cậy và khả năng truy xuất nguồn gốc lô hàng."
+        ]
+      ],
+      "processEyebrow": "Từ quá trình",
+      "processTitle": "Xem tác phẩm tại nguồn gốc.",
+      "videoStory": "Câu chuyện quy trình cà phê",
+      "watchVideo": "Xem trên YouTube",
+      "qualityEyebrow": "Chất lượng cà phê",
+      "qualityTitle": "Lời thề của chúng tôi là cung cấp cà phê tự nhiên và bền vững cho thế giới.",
+      "qualityDescription1": "Chất lượng bắt đầu từ rất lâu trước khi mẫu được đưa đến bàn thử nếm. Chúng tôi làm việc gần gũi với nguồn gốc, theo dõi từng lô hàng từ việc lựa chọn quả anh đào cho đến chế biến và chuẩn bị cuối cùng. Sự chăm sóc đó tạo ra cà phê xanh có chất lượng vật lý đáng tin cậy, hương vị rõ ràng và câu chuyện mà người mua có thể ủng hộ.",
+      "qualityDescription2": "Cách tiếp cận của chúng tôi rất thiết thực và mang tính cá nhân: lắng nghe người trồng trọt, bảo vệ đặc tính của mỗi vụ thu hoạch và cung cấp cho các nhà nhập khẩu và nhà rang xay thông tin họ cần để mua một cách tự tin.",
+      "offerList": "Yêu cầu danh sách ưu đãi hiện tại của chúng tôi",
+      "qualities": [
+        [
+          "Lớp đặc biệt",
+          "Những lô được chọn đạt điểm 80+ với nguồn gốc xuất xứ rõ ràng và cốc sạch sẽ, biểu cảm."
+        ],
+        [
+          "Tính cách tự nhiên",
+          "Những đường nét ngọt ngào, hình trái cây được định hình bởi đất, độ cao và quá trình xử lý kiên nhẫn."
+        ],
+        [
+          "Cung cấp có trách nhiệm",
+          "Mối quan hệ nông dân lâu dài hỗ trợ giá trị công bằng hơn và thu hoạch bền vững."
+        ],
+        [
+          "Xuất sẵn sàng",
+          "Chuẩn bị nhất quán, đóng gói an toàn và hỗ trợ thiết thực từ mẫu đến lô hàng."
+        ]
+      ],
+      "aboutEyebrow": "Về Palapa",
+      "aboutTitle": "Chúng tôi là ai?",
+      "aboutDescription1": "Cà phê Palapa được thành lập từ một niềm tin đơn giản: cà phê Java nổi bật xứng đáng có một con đường rõ ràng đến với thế giới. Có trụ sở tại Bandung, chúng tôi kết nối công việc của những người trồng và chế biến ở Tây Java với các nhà nhập khẩu, nhà rang xay độc lập và các cửa hàng cà phê quan tâm đến nguồn gốc.",
+      "aboutDescription2": "Chúng tôi là một đối tác xuất khẩu có nguồn gốc xuất xứ. Điều đó có nghĩa là ít lớp hơn, giao tiếp trung thực và chú ý đến các chi tiết quan trọng, từ mẫu và thông số kỹ thuật đến việc chuẩn bị và vận chuyển.",
+      "quote": "Chúng tôi muốn mọi mối quan hệ đều được coi như chính ly cà phê.",
+      "founder": "Người sáng lập, Cà phê Palapa",
+      "bandungIndonesia": "Bandung · Indonesia",
+      "contactEyebrow": "Hãy nói chuyện cà phê",
+      "contactTitle": "Mang hương vị của Java đến thị trường của bạn.",
+      "contactDescription": "Hãy cho chúng tôi những gì bạn đang tìm kiếm. Chúng tôi hoan nghênh các yêu cầu mẫu, các cuộc trò chuyện tìm nguồn cung ứng và quan hệ đối tác lâu dài.",
+      "whatsapp": "WhatsApp",
+      "startConversation": "Bắt đầu cuộc trò chuyện",
+      "email": "E-mail",
+      "ourBase": "cơ sở của chúng tôi",
+      "footerTagline": "Cà phê xanh từ Bandung, Indonesia.",
+      "chatWhatsapp": "Trò chuyện với Palapa Coffee trên WhatsApp",
+      "chatLabel": "Trò chuyện trên WhatsApp"
+    },
+    "ms": {
+      "skip": "Langkau ke kandungan utama",
+      "home": "Rumah Kopi Palapa",
+      "openMenu": "Buka menu navigasi",
+      "navOrigin": "Asal Kopi",
+      "navQuality": "Kualiti Kopi",
+      "navAbout": "Tentang Kami",
+      "navContact": "Hubungi Kami",
+      "heroEyebrow": "Dari Jawa · Ke dunia",
+      "heroTitle": "Kopi bandung, terungkap dengan indah.",
+      "heroDescription": "Kopi hijau berakar umbi di tanah tinggi Sunda, dipilih dengan teliti dan disediakan untuk pemanggang di seluruh dunia.",
+      "discover": "Temui asal usul kami",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "Asal kopi",
+      "originTitle": "Berasal dari Tanah Sunda.",
+      "originDescription": "Kopi kami bermula di lipatan hijau tanah tinggi gunung berapi Bandung. Udara yang sejuk, hujan yang lebat, dan tanah yang kaya dengan mineral membolehkan ceri matang perlahan-lahan, membina kemanisan dan watak hidup yang membezakan Jawa Barat dalam setiap cawan.",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "Tanah Tinggi Bandung",
+      "processes": [
+        [
+          "Diusahakan",
+          "Ditanam oleh rakan kongsi pekebun kecil yang dipercayai merentasi tanah tinggi gunung berapi yang sejuk di sekitar Bandung."
+        ],
+        [
+          "Diproses",
+          "Pemilihan ceri yang teliti dan proses yang dianggap semula jadi, dibasuh, dan madu mendedahkan watak setiap lot."
+        ],
+        [
+          "Bersedia",
+          "Digredkan, dibekam dan disediakan untuk eksport dengan dokumentasi yang boleh dipercayai dan kebolehkesanan lot."
+        ]
+      ],
+      "processEyebrow": "Daripada proses",
+      "processTitle": "Tonton kerja di asal.",
+      "videoStory": "Cerita proses kopi",
+      "watchVideo": "Tonton di YouTube",
+      "qualityEyebrow": "Kualiti kopi",
+      "qualityTitle": "Sumpah kami adalah untuk memberikan kopi yang mampan dan semula jadi kepada dunia.",
+      "qualityDescription1": "Kualiti bermula lama sebelum sampel sampai ke meja bekam. Kami bekerja berhampiran dengan asal, mengikut setiap lot daripada pemilihan ceri melalui pemprosesan dan penyediaan akhir. Penjagaan itu menghasilkan kopi hijau dengan kualiti fizikal yang boleh dipercayai, rasa yang jelas, dan pembeli cerita boleh berdiri di belakang.",
+      "qualityDescription2": "Pendekatan kami adalah praktikal dan peribadi: mendengar penanam, melindungi watak setiap tuaian, dan memberi pengimport dan pemanggang maklumat yang mereka perlukan untuk membeli dengan yakin.",
+      "offerList": "Minta senarai tawaran semasa kami",
+      "qualities": [
+        [
+          "Gred khusus",
+          "Lot terpilih mendapat markah 80+ dengan asal yang jelas dan cawan yang bersih dan ekspresif."
+        ],
+        [
+          "Perwatakan semula jadi",
+          "Profil manis berpandukan buah yang dibentuk oleh tanah, ketinggian, dan pemprosesan pesakit."
+        ],
+        [
+          "Bekalan yang bertanggungjawab",
+          "Hubungan petani jangka panjang menyokong nilai yang lebih adil dan hasil tuaian yang berdaya tahan."
+        ],
+        [
+          "Eksport sedia",
+          "Penyediaan yang konsisten, pembungkusan selamat, dan sokongan praktikal dari sampel ke penghantaran."
+        ]
+      ],
+      "aboutEyebrow": "Tentang Palapa",
+      "aboutTitle": "Siapa kita?",
+      "aboutDescription1": "Kopi Palapa diasaskan daripada keyakinan yang mudah: kopi Jawa yang luar biasa layak mendapat laluan yang jelas ke dunia. Berpusat di Bandung, kami menghubungkan kerja penanam dan pemproses Jawa Barat dengan pengimport, pemanggang bebas dan kedai kopi yang mementingkan asal usul.",
+      "aboutDescription2": "Kami adalah rakan kongsi eksport dengan kaki kami di asal. Ini bermakna lebih sedikit lapisan, komunikasi yang jujur ​​dan perhatian kepada butiran yang penting, daripada sampel dan spesifikasi kepada penyediaan dan penghantaran.",
+      "quote": "Kami mahu setiap perhubungan dirasakan sebagai dianggap sebagai kopi itu sendiri.",
+      "founder": "Pengasas, Kopi Palapa",
+      "bandungIndonesia": "Bandung · Indonesia",
+      "contactEyebrow": "Mari bercakap tentang kopi",
+      "contactTitle": "Bawa rasa Jawa ke pasaran anda.",
+      "contactDescription": "Beritahu kami apa yang anda cari. Kami mengalu-alukan permintaan sampel, perbualan sumber dan perkongsian jangka panjang.",
+      "whatsapp": "WhatsApp",
+      "startConversation": "Mulakan perbualan",
+      "email": "E-mel",
+      "ourBase": "Pangkalan kami",
+      "footerTagline": "Kopi hijau dari Bandung, Indonesia.",
+      "chatWhatsapp": "Berbual dengan Kopi Palapa di WhatsApp",
+      "chatLabel": "Sembang di WhatsApp"
+    },
+    "id": {
+      "skip": "Lompat ke konten utama",
+      "home": "Palapa Kopi pulang",
+      "openMenu": "Buka menu navigasi",
+      "navOrigin": "Asal Kopi",
+      "navQuality": "Kualitas Kopi",
+      "navAbout": "Tentang Kami",
+      "navContact": "Hubungi kami",
+      "heroEyebrow": "Dari Jawa · Ke dunia",
+      "heroTitle": "Kopi Bandung, diungkapkan dengan indah.",
+      "heroDescription": "Kopi hijau yang berasal dari dataran tinggi Sunda, dipilih dengan hati-hati dan disiapkan untuk disangrai di seluruh dunia.",
+      "discover": "Temukan asal usul kami",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "Asal kopi",
+      "originTitle": "Berasal dari Tanah Sunda.",
+      "originDescription": "Kopi kami dimulai di lipatan hijau dataran tinggi vulkanik Bandung. Udara yang sejuk, curah hujan yang melimpah, dan tanah yang kaya mineral membuat buah ceri matang perlahan, membangun karakter manis dan hidup yang membedakan Jawa Barat di setiap cangkirnya.",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "Dataran Tinggi Bandung",
+      "processes": [
+        [
+          "Dibudidayakan",
+          "Ditanam oleh mitra petani kecil yang terpercaya di dataran tinggi vulkanik yang sejuk di sekitar Bandung."
+        ],
+        [
+          "Diproses",
+          "Pemilihan ceri yang cermat dan proses yang dianggap alami, dicuci, dan madu mengungkapkan karakter masing-masing ceri."
+        ],
+        [
+          "Siap",
+          "Dinilai, ditangkupkan, dan disiapkan untuk ekspor dengan dokumentasi yang dapat diandalkan dan ketertelusuran lot."
+        ]
+      ],
+      "processEyebrow": "Dari prosesnya",
+      "processTitle": "Perhatikan pekerjaan di tempat asal.",
+      "videoStory": "Kisah proses kopi",
+      "watchVideo": "Tonton di YouTube",
+      "qualityEyebrow": "Kualitas kopi",
+      "qualityTitle": "Sumpah kami adalah memberikan kopi yang berkelanjutan dan alami kepada dunia.",
+      "qualityDescription1": "Kualitas dimulai jauh sebelum sampel mencapai meja bekam. Kami bekerja dekat dengan tempat asal, mengikuti setiap proses mulai dari pemilihan ceri hingga pemrosesan dan persiapan akhir. Kepedulian tersebut menciptakan kopi hijau dengan kualitas fisik yang dapat diandalkan, rasa yang jernih, dan cerita yang dapat dipercaya oleh pembeli.",
+      "qualityDescription2": "Pendekatan kami bersifat praktis dan personal: mendengarkan para petani, melindungi karakter setiap panen, dan memberikan informasi yang dibutuhkan importir dan roaster untuk membeli dengan percaya diri.",
+      "offerList": "Minta daftar penawaran kami saat ini",
+      "qualities": [
+        [
+          "Kelas khusus",
+          "Lot terpilih dengan skor 80+ dengan asal yang jelas dan cangkir yang bersih dan ekspresif."
+        ],
+        [
+          "Karakter alami",
+          "Profil manis berbentuk buah yang dibentuk oleh tanah, ketinggian, dan pemrosesan yang sabar."
+        ],
+        [
+          "Pasokan yang bertanggung jawab",
+          "Hubungan jangka panjang dengan petani mendukung nilai yang lebih adil dan hasil panen yang berketahanan."
+        ],
+        [
+          "Ekspor siap",
+          "Persiapan yang konsisten, pengemasan yang aman, dan dukungan praktis mulai dari sampel hingga pengiriman."
+        ]
+      ],
+      "aboutEyebrow": "Tentang Palapa",
+      "aboutTitle": "Siapa kita?",
+      "aboutDescription1": "Palapa Coffee didirikan dari sebuah keyakinan sederhana: kopi Jawa yang luar biasa layak mendapatkan jalan yang jelas menuju dunia. Berbasis di Bandung, kami menghubungkan pekerjaan para petani dan pengolah di Jawa Barat dengan importir, roaster independen, dan kedai kopi yang peduli terhadap asal usul.",
+      "aboutDescription2": "Kami adalah mitra ekspor yang berpijak pada asal. Hal ini berarti lebih sedikit lapisan, komunikasi yang jujur, dan perhatian terhadap detail yang penting, mulai dari sampel dan spesifikasi hingga persiapan dan pengiriman.",
+      "quote": "Kami ingin setiap hubungan terasa seperti kopi itu sendiri.",
+      "founder": "Pendirinya, Palapa Kopi",
+      "bandungIndonesia": "Bandung · Indonesia",
+      "contactEyebrow": "Mari kita bicara tentang kopi",
+      "contactTitle": "Hadirkan cita rasa Jawa ke pasar Anda.",
+      "contactDescription": "Beritahu kami apa yang Anda cari. Kami menerima permintaan sampel, sumber percakapan, dan kemitraan jangka panjang.",
+      "whatsapp": "Ada apa",
+      "startConversation": "Mulailah percakapan",
+      "email": "E-mail",
+      "ourBase": "Basis kami",
+      "footerTagline": "Kopi hijau dari Bandung, Indonesia.",
+      "chatWhatsapp": "Ngobrol dengan Palapa Coffee di WhatsApp",
+      "chatLabel": "Ngobrol di WhatsApp"
+    },
+    "hy": {
+      "skip": "Անցեք հիմնական բովանդակությանը",
+      "home": "Palapa Սուրճի տուն",
+      "openMenu": "Բացեք նավիգացիոն ընտրացանկը",
+      "navOrigin": "Սուրճի ծագումը",
+      "navQuality": "Սուրճի որակ",
+      "navAbout": "Մեր մասին",
+      "navContact": "Կապ մեզ հետ",
+      "heroEyebrow": "Java-ից · Դեպի աշխարհ",
+      "heroTitle": "Բանդունգ սուրճ՝ գեղեցիկ արտահայտված։",
+      "heroDescription": "Կանաչ սուրճը արմատավորված է Սունդայի լեռնաշխարհում, խնամքով ընտրված և պատրաստված ամբողջ աշխարհում տապակողների համար:",
+      "discover": "Բացահայտեք մեր ծագումը",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "Սուրճի ծագում",
+      "originTitle": "Ծագել է Սունդայի երկրից։",
+      "originDescription": "Մեր սուրճը սկսվում է Բանդունգի հրաբխային լեռնաշխարհի կանաչ ծալքերից: Սառը օդը, առատ տեղումները և հանքանյութերով հարուստ հողերը թույլ են տալիս, որ կեռասը դանդաղ հասունանա՝ ձևավորելով այն քաղցրությունն ու աշխույժ բնավորությունը, որը տարբերում է Արևմտյան Java-ին յուրաքանչյուր գավաթում:",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "Բանդունգ լեռնաշխարհ",
+      "processes": [
+        [
+          "Մշակված",
+          "Աճեցվել է վստահելի մանր սեփականատերերի կողմից Բանդունգին շրջապատող զով, հրաբխային լեռնաշխարհում:"
+        ],
+        [
+          "Մշակված",
+          "Բալի մանրակրկիտ ընտրությունը և բնական, լվացված և մեղրային գործընթացները բացահայտում են յուրաքանչյուր լոտի բնավորությունը:"
+        ],
+        [
+          "Պատրաստված",
+          "Գնահատված, գավաթով և արտահանման համար պատրաստված՝ հուսալի փաստաթղթերով և լոտի հետագծելիությամբ:"
+        ]
+      ],
+      "processEyebrow": "Գործընթացից",
+      "processTitle": "Դիտեք ստեղծագործությունը սկզբում:",
+      "videoStory": "Սուրճի գործընթացի պատմություն",
+      "watchVideo": "Դիտեք YouTube-ում",
+      "qualityEyebrow": "Սուրճի որակ",
+      "qualityTitle": "Մեր երդումն է աշխարհին կայուն և բնական սուրճ տալ:",
+      "qualityDescription1": "Որակը սկսվում է շատ ավելի վաղ, քան նմուշը հասնում է բաժակի սեղանին: Մենք աշխատում ենք ծագմանը մոտ՝ հետևելով կեռասի ընտրությունից մինչև վերամշակման և վերջնական պատրաստման ամեն ինչ: Այդ խնամքը ստեղծում է կանաչ սուրճ՝ հուսալի ֆիզիկական որակով, հստակ համով, և մի պատմություն, որը գնորդները կարող են կանգնել:",
+      "qualityDescription2": "Մեր մոտեցումը գործնական է և անհատական. լսեք աճեցնողներին, պաշտպանեք յուրաքանչյուր բերքի բնավորությունը և ներմուծողներին և տապակողներին տրամադրեք այն տեղեկատվությունը, որն անհրաժեշտ է վստահորեն գնելու համար:",
+      "offerList": "Հարցրեք մեր ընթացիկ առաջարկների ցանկը",
+      "qualities": [
+        [
+          "Մասնագիտացման աստիճան",
+          "Ընտրված լոտեր, որոնց միավորները 80+ են՝ հստակ ծագմամբ և մաքուր, արտահայտիչ գավաթով:"
+        ],
+        [
+          "Բնական բնավորություն",
+          "Քաղցր, մրգային պրոֆիլներ, որոնք ձևավորվել են հողի, բարձրության և հիվանդի մշակման արդյունքում:"
+        ],
+        [
+          "Պատասխանատու մատակարարում",
+          "Ֆերմերների երկարաժամկետ փոխհարաբերությունները նպաստում են ավելի արդար արժեքի և դիմացկուն բերքի ստացմանը:"
+        ],
+        [
+          "Արտահանումը պատրաստ է",
+          "Հետևողական պատրաստում, անվտանգ փաթեթավորում և գործնական աջակցություն նմուշից մինչև առաքում:"
+        ]
+      ],
+      "aboutEyebrow": "Պալապայի մասին",
+      "aboutTitle": "Ովքե՞ր ենք մենք։",
+      "aboutDescription1": "Palapa Coffee-ն ստեղծվել է մի պարզ համոզմունքով. ուշագրավ Java սուրճն արժանի է դեպի աշխարհ պարզ ճանապարհ: Բանդունգում հիմնված՝ մենք կապում ենք Արևմտյան Ջավայի աճեցողների և վերամշակողների աշխատանքը ներմուծողների, անկախ տապակողների և սրճարանների հետ, որոնք հոգ են տանում ծագման մասին:",
+      "aboutDescription2": "Մենք արտահանման գործընկեր ենք՝ սկզբում ոտքերով: Դա նշանակում է ավելի քիչ շերտեր, ազնիվ հաղորդակցություն և ուշադրություն կարևոր մանրամասների նկատմամբ՝ սկսած նմուշներից և բնութագրերից մինչև պատրաստում և առաքում:",
+      "quote": "Մենք ցանկանում ենք, որ յուրաքանչյուր հարաբերություն զգա այնքան, որքան սուրճը:",
+      "founder": "Հիմնադիր, Palapa Coffee",
+      "bandungIndonesia": "Բանդունգ · Ինդոնեզիա",
+      "contactEyebrow": "Եկեք խոսենք սուրճի մասին",
+      "contactTitle": "Ձեր շուկա բերեք Java-ի համը:",
+      "contactDescription": "Ասա մեզ, թե ինչ ես փնտրում: Մենք ողջունում ենք օրինակելի հարցումները, աղբյուրների խոսակցությունները և երկարաժամկետ գործընկերությունները:",
+      "whatsapp": "WhatsApp",
+      "startConversation": "Սկսեք զրույց",
+      "email": "Էլ",
+      "ourBase": "Մեր բազան",
+      "footerTagline": "Կանաչ սուրճ Բանդունգից, Ինդոնեզիա:",
+      "chatWhatsapp": "Զրուցեք Palapa Coffee-ի հետ WhatsApp-ով",
+      "chatLabel": "Զրուցեք WhatsApp-ով"
+    },
+    "cs": {
+      "skip": "Přejít na hlavní obsah",
+      "home": "Palapa Coffee home",
+      "openMenu": "Otevřete navigační nabídku",
+      "navOrigin": "Původ kávy",
+      "navQuality": "Kvalita kávy",
+      "navAbout": "O nás",
+      "navContact": "Kontaktujte nás",
+      "heroEyebrow": "Z Javy · Do světa",
+      "heroTitle": "Káva Bandung, krásně vyjádřená.",
+      "heroDescription": "Zelená káva s kořeny v Sundské vysočině, pečlivě vybraná a připravená pro pražírny po celém světě.",
+      "discover": "Objevte náš původ",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "Původ kávy",
+      "originTitle": "Pochází ze země Sunda.",
+      "originDescription": "Naše káva začíná v zelených záhybech vulkanické vysočiny Bandung. Chladný vzduch, vydatné srážky a půdy bohaté na minerály nechávají třešně dozrávat pomalu a vytvářejí sladkost a živý charakter, který odlišuje Západní Jávu v každém šálku.",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "Bandungská vysočina",
+      "processes": [
+        [
+          "Kultivovaný",
+          "Pěstováno důvěryhodnými drobnými pěstiteli v chladné sopečné vysočině obklopující Bandung."
+        ],
+        [
+          "Zpracováno",
+          "Pečlivý výběr třešní a přírodní, prané a medové procesy odhalují charakter každé šarže."
+        ],
+        [
+          "Připravený",
+          "Tříděné, hrnkové a připravené pro export se spolehlivou dokumentací a sledovatelností šarže."
+        ]
+      ],
+      "processEyebrow": "Z procesu",
+      "processTitle": "Sledujte práci na počátku.",
+      "videoStory": "Příběh procesu kávy",
+      "watchVideo": "Sledujte na YouTube",
+      "qualityEyebrow": "Kvalita kávy",
+      "qualityTitle": "Naší přísahou je dát světu udržitelnou a přírodní kávu.",
+      "qualityDescription1": "Kvalita začíná dlouho předtím, než se vzorek dostane na baňkový stůl. Pracujeme blízko původu, sledujeme každou šarži od výběru třešní přes zpracování a konečnou přípravu. Tato péče vytváří zelenou kávu se spolehlivou fyzickou kvalitou, jasnou chutí a příběhem, za kterým mohou kupující stát.",
+      "qualityDescription2": "Náš přístup je praktický a osobní: naslouchejte pěstitelům, chraňte charakter každé sklizně a poskytněte dovozcům a pražírnám informace, které potřebují k nákupu s důvěrou.",
+      "offerList": "Vyžádejte si náš aktuální seznam nabídek",
+      "qualities": [
+        [
+          "Speciální stupeň",
+          "Vybrané šarže bodující 80+ s jasným původem a čistým, výrazným šálkem."
+        ],
+        [
+          "Přírodní charakter",
+          "Sladké, ovocné profily tvarované půdou, nadmořskou výškou a trpělivým zpracováním."
+        ],
+        [
+          "Odpovědné zásobování",
+          "Dlouhodobé vztahy s farmáři podporují spravedlivější hodnotu a odolné sklizně."
+        ],
+        [
+          "Export připraven",
+          "Důsledná příprava, bezpečné balení a praktická podpora od vzorku až po odeslání."
+        ]
+      ],
+      "aboutEyebrow": "O Palapovi",
+      "aboutTitle": "kdo jsme?",
+      "aboutDescription1": "Palapa Coffee byla založena z jednoduchého přesvědčení: pozoruhodná jávská káva si zaslouží jasnou cestu do světa. Se sídlem v Bandungu propojujeme práci pěstitelů a zpracovatelů West Java s dovozci, nezávislými pražírnami a kavárnami, kterým záleží na původu.",
+      "aboutDescription2": "Jsme exportním partnerem s našimi nohami na počátku. To znamená méně vrstev, upřímnou komunikaci a pozornost věnovanou detailům, na kterých záleží, od vzorků a specifikací až po přípravu a odeslání.",
+      "quote": "Chceme, aby byl každý vztah vnímán stejně jako káva samotná.",
+      "founder": "Zakladatel, Palapa Coffee",
+      "bandungIndonesia": "Bandung · Indonésie",
+      "contactEyebrow": "Promluvme si o kávě",
+      "contactTitle": "Přineste chuť Javy na svůj trh.",
+      "contactDescription": "Řekněte nám, co hledáte. Vítáme vzorové žádosti, konverzace o zdrojích a dlouhodobá partnerství.",
+      "whatsapp": "WhatsApp",
+      "startConversation": "Zahajte konverzaci",
+      "email": "E-mail",
+      "ourBase": "Naše základna",
+      "footerTagline": "Zelená káva z Bandungu, Indonésie.",
+      "chatWhatsapp": "Chatujte s Palapa Coffee na WhatsApp",
+      "chatLabel": "Chatujte na WhatsApp"
+    },
+    "ar": {
+      "skip": "انتقل إلى المحتوى الرئيسي",
+      "home": "قهوة بالابا هوم",
+      "openMenu": "فتح قائمة التنقل",
+      "navOrigin": "أصل القهوة",
+      "navQuality": "جودة القهوة",
+      "navAbout": "معلومات عنا",
+      "navContact": "اتصل بنا",
+      "heroEyebrow": "من جافا · إلى العالم",
+      "heroTitle": "قهوة باندونج، معبر عنها بشكل جميل.",
+      "heroDescription": "قهوة خضراء متجذرة في مرتفعات سوندا، تم اختيارها بعناية وإعدادها للمحامص في جميع أنحاء العالم.",
+      "discover": "اكتشف أصلنا",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "أصل القهوة",
+      "originTitle": "أصلها من أرض سوندا.",
+      "originDescription": "تبدأ قهوتنا في الطيات الخضراء لمرتفعات باندونغ البركانية. الهواء البارد، والأمطار الغزيرة، والتربة الغنية بالمعادن تجعل الكرز ينضج ببطء، مما يبني الحلاوة والطابع المفعم بالحيوية الذي يميز جاوة الغربية في كل كوب.",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "مرتفعات باندونج",
+      "processes": [
+        [
+          "المزروعة",
+          "تمت زراعته بواسطة شركاء موثوقين من أصحاب الحيازات الصغيرة عبر المرتفعات البركانية الباردة المحيطة بباندونج."
+        ],
+        [
+          "معالجتها",
+          "إن الاختيار الدقيق للكرز والعمليات الطبيعية والمغسولة والعسلية تكشف عن طابع كل قطعة."
+        ],
+        [
+          "مُعد",
+          "تم تصنيفها وتجميعها وتجهيزها للتصدير بوثائق يمكن الاعتماد عليها وإمكانية تتبع الدفعة."
+        ]
+      ],
+      "processEyebrow": "من هذه العملية",
+      "processTitle": "مشاهدة العمل في الأصل.",
+      "videoStory": "قصة عملية القهوة",
+      "watchVideo": "شاهد على يوتيوب",
+      "qualityEyebrow": "جودة القهوة",
+      "qualityTitle": "قسمنا هو تقديم القهوة المستدامة والطبيعية للعالم.",
+      "qualityDescription1": "تبدأ الجودة قبل وقت طويل من وصول العينة إلى طاولة الحجامة. نحن نعمل بالقرب من المنشأ، ونتابع كل دفعة بدءًا من اختيار الكرز وحتى المعالجة والتحضير النهائي. تنتج هذه الرعاية قهوة خضراء ذات جودة مادية يمكن الاعتماد عليها، ونكهة واضحة، وقصة يمكن للمشترين أن يقفوا وراءها.",
+      "qualityDescription2": "نهجنا عملي وشخصي: استمع إلى المزارعين، واحمي طبيعة كل محصول، وامنح المستوردين والمحامص المعلومات التي يحتاجونها للشراء بثقة.",
+      "offerList": "اطلب قائمة عروضنا الحالية",
+      "qualities": [
+        [
+          "درجة التخصص",
+          "قطع مختارة سجلت أكثر من 80 درجة مع مصدر واضح وكوب نظيف ومعبر."
+        ],
+        [
+          "الطابع الطبيعي",
+          "ملامح حلوة مليئة بالفواكه تتشكل من التربة والارتفاع ومعالجة المريض."
+        ],
+        [
+          "التوريد المسؤول",
+          "تدعم العلاقات الطويلة الأمد مع المزارعين قيمة أكثر عدالة ومحاصيل أكثر مرونة."
+        ],
+        [
+          "التصدير جاهز",
+          "الإعداد المتسق والتعبئة الآمنة والدعم العملي من العينة إلى الشحن."
+        ]
+      ],
+      "aboutEyebrow": "حول بالابا",
+      "aboutTitle": "من نحن؟",
+      "aboutDescription1": "تأسست شركة Palapa Coffee على قناعة بسيطة: قهوة جافا الرائعة تستحق طريقًا واضحًا إلى العالم. يقع مقرنا في باندونغ، ونحن نربط عمل المزارعين والمصنعين في جاوة الغربية مع المستوردين والمحامص المستقلة والمقاهي التي تهتم بالأصل.",
+      "aboutDescription2": "نحن شريك تصدير مع أقدامنا في الأصل. وهذا يعني طبقات أقل، وتواصلًا صادقًا، والاهتمام بالتفاصيل المهمة، بدءًا من العينات والمواصفات وحتى الإعداد والشحن.",
+      "quote": "نريد أن تشعر كل علاقة بأنها تعتبر بمثابة القهوة نفسها.",
+      "founder": "مؤسس مقهى بالابا",
+      "bandungIndonesia": "باندونج · إندونيسيا",
+      "contactEyebrow": "دعونا نتحدث القهوة",
+      "contactTitle": "جلب طعم جافا إلى السوق الخاص بك.",
+      "contactDescription": "أخبرنا ما الذي تبحث عنه. نحن نرحب بطلبات العينات ومحادثات المصادر والشراكات طويلة الأمد.",
+      "whatsapp": "واتساب",
+      "startConversation": "ابدأ محادثة",
+      "email": "بريد إلكتروني",
+      "ourBase": "قاعدتنا",
+      "footerTagline": "قهوة خضراء من باندونج، إندونيسيا.",
+      "chatWhatsapp": "الدردشة مع Palapa Coffee على WhatsApp",
+      "chatLabel": "الدردشة على الواتساب"
+    },
+    "ha": {
+      "skip": "Tsallake zuwa babban abun ciki",
+      "home": "Palapa Coffee gida",
+      "openMenu": "Buɗe menu na kewayawa",
+      "navOrigin": "Asalin Kofi",
+      "navQuality": "ingancin kofi",
+      "navAbout": "Game da Mu",
+      "navContact": "Tuntube Mu",
+      "heroEyebrow": "Daga Java · Zuwa duniya",
+      "heroTitle": "Bandung kofi, da kyau bayyana.",
+      "heroDescription": "Koren kofi mai tushe a cikin tsaunukan Sunda, wanda aka zaɓa tare da kulawa kuma an shirya shi don roasters a duniya.",
+      "discover": "Gano asalin mu",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "Asalin kofi",
+      "originTitle": "An samo asali daga ƙasar Sunda.",
+      "originDescription": "Kofi namu yana farawa a cikin koren ɓangarorin tsaunin Bandung. Iska mai sanyi, ruwan sama mai karimci, da ƙasa mai wadatar ma'adinai suna barin cherries su girma sannu a hankali, suna gina zaƙi da ɗabi'a mai rai waɗanda ke bambanta Yammacin Java a cikin kowane kofi.",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "Bandung Highlands",
+      "processes": [
+        [
+          "Noma",
+          "Ƙwararru ta amintattun ƴan ƴan kasuwa a ko'ina cikin sanyi, tsaunuka masu aman wuta da ke kewaye da Bandung."
+        ],
+        [
+          "An sarrafa",
+          "Zaɓin cherries a hankali da kuma la'akari da dabi'a, wankewa, da hanyoyin zuma suna bayyana halin kowane nau'i."
+        ],
+        [
+          "An shirya",
+          "An ƙididdige darajar, cuɗewa, kuma an shirya don fitarwa tare da ingantaccen takaddun shaida da gano wuri mai yawa."
+        ]
+      ],
+      "processEyebrow": "Daga tsari",
+      "processTitle": "Duba aikin a asali.",
+      "videoStory": "Labarin sarrafa kofi",
+      "watchVideo": "Kalli akan YouTube",
+      "qualityEyebrow": "ingancin kofi",
+      "qualityTitle": "Rantsuwarsa ita ce ba da kofi mai ɗorewa kuma na halitta ga duniya.",
+      "qualityDescription1": "Kyakkyawan yana farawa tun kafin samfurin ya isa teburin cin abinci. Muna aiki kusa da asali, muna bin kowane abu daga zaɓin ceri ta hanyar sarrafawa da shiri na ƙarshe. Wannan kulawa yana haifar da koren kofi tare da ingantaccen ingancin jiki, bayyanannen dandano, kuma masu siyan labari zasu iya tsayawa a baya.",
+      "qualityDescription2": "Hanyarmu mai amfani ce kuma ta sirri: sauraron masu noma, kare halayen kowane girbi, da baiwa masu shigo da kaya da masu gasa bayanan da suke buƙata don siya da ƙarfin gwiwa.",
+      "offerList": "Nemi jerin tayin mu na yanzu",
+      "qualities": [
+        [
+          "Daraja na musamman",
+          "Zaɓaɓɓun kuri'a waɗanda suka zira kwallaye 80+ tare da bayyananniyar fa'ida da tsaftataccen kofi mai bayyanawa."
+        ],
+        [
+          "Halin halitta",
+          "Zaƙi, bayanan martaba masu jagorancin 'ya'yan itace siffa ta ƙasa, tsayi, da sarrafa haƙuri."
+        ],
+        [
+          "Wadatar alhaki",
+          "Dangantakar manoma na dogon lokaci yana tallafawa ingantaccen ƙima da girbi mai jurewa."
+        ],
+        [
+          "Ana shirya fitarwa",
+          "Shirye-shiryen daidaitaccen tsari, marufi mai tsaro, da tallafi mai amfani daga samfurin zuwa jigilar kaya."
+        ]
+      ],
+      "aboutEyebrow": "Game da Palapa",
+      "aboutTitle": "Wanene mu?",
+      "aboutDescription1": "An kafa Palapa Coffee daga hukunci mai sauƙi: kofi na Java mai ban mamaki ya cancanci kyakkyawar hanya zuwa duniya. An kafa shi a Bandung, muna haɗa aikin masu noman Yammacin Java da masu sarrafawa tare da masu shigo da kaya, masu cin abinci masu zaman kansu, da shagunan kofi waɗanda ke kula da asali.",
+      "aboutDescription2": "Mu abokin tarayya ne na fitarwa tare da ƙafafu a asali. Wannan yana nufin ƙarancin yadudduka, sadarwa ta gaskiya, da hankali ga cikakkun bayanai waɗanda ke da mahimmanci, daga samfura da ƙayyadaddun bayanai zuwa shiri da jigilar kaya.",
+      "quote": "Muna son kowane dangantaka ta ji kamar yadda aka yi la'akari da kofi da kanta.",
+      "founder": "Wanda ya kafa, Palapa Coffee",
+      "bandungIndonesia": "Bandung · Indonesia",
+      "contactEyebrow": "Bari mu yi magana kofi",
+      "contactTitle": "Ku kawo ɗanɗanon Java zuwa kasuwar ku.",
+      "contactDescription": "Faɗa mana abin da kuke nema. Muna maraba da buƙatun samfurin, tattaunawa mai tushe, da haɗin gwiwa na dogon lokaci.",
+      "whatsapp": "WhatsApp",
+      "startConversation": "Fara tattaunawa",
+      "email": "Imel",
+      "ourBase": "Tushen mu",
+      "footerTagline": "Green kofi daga Bandung, Indonesia.",
+      "chatWhatsapp": "Yi Taɗi tare da Kofin Palapa akan WhatsApp",
+      "chatLabel": "Tattaunawa akan WhatsApp"
+    },
+    "ms-BN": {
+      "skip": "Langkau ke kandungan utama",
+      "home": "Rumah Kopi Palapa",
+      "openMenu": "Buka menu navigasi",
+      "navOrigin": "Asal Kopi",
+      "navQuality": "Kualiti Kopi",
+      "navAbout": "Tentang Kami",
+      "navContact": "Hubungi Kami",
+      "heroEyebrow": "Dari Jawa · Ke dunia",
+      "heroTitle": "Kopi bandung, terungkap dengan indah.",
+      "heroDescription": "Kopi hijau berakar umbi di tanah tinggi Sunda, dipilih dengan teliti dan disediakan untuk pemanggang di seluruh dunia.",
+      "discover": "Temui asal usul kami",
+      "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
+      "originEyebrow": "Asal kopi",
+      "originTitle": "Berasal dari Tanah Sunda.",
+      "originDescription": "Kopi kami bermula di lipatan hijau tanah tinggi gunung berapi Bandung. Udara yang sejuk, hujan yang lebat, dan tanah yang kaya dengan mineral membolehkan ceri matang perlahan-lahan, membina kemanisan dan watak hidup yang membezakan Jawa Barat dalam setiap cawan.",
+      "altitude": "1,200–1,700 MASL",
+      "bandungHighlands": "Tanah Tinggi Bandung",
+      "processes": [
+        [
+          "Diusahakan",
+          "Ditanam oleh rakan kongsi pekebun kecil yang dipercayai merentasi tanah tinggi gunung berapi yang sejuk di sekitar Bandung."
+        ],
+        [
+          "Diproses",
+          "Pemilihan ceri yang teliti dan proses yang dianggap semula jadi, dibasuh, dan madu mendedahkan watak setiap lot."
+        ],
+        [
+          "Bersedia",
+          "Digredkan, dibekam dan disediakan untuk eksport dengan dokumentasi yang boleh dipercayai dan kebolehkesanan lot."
+        ]
+      ],
+      "processEyebrow": "Daripada proses",
+      "processTitle": "Tonton kerja di asal.",
+      "videoStory": "Cerita proses kopi",
+      "watchVideo": "Tonton di YouTube",
+      "qualityEyebrow": "Kualiti kopi",
+      "qualityTitle": "Sumpah kami adalah untuk memberikan kopi yang mampan dan semula jadi kepada dunia.",
+      "qualityDescription1": "Kualiti bermula lama sebelum sampel sampai ke meja bekam. Kami bekerja berhampiran dengan asal, mengikut setiap lot daripada pemilihan ceri melalui pemprosesan dan penyediaan akhir. Penjagaan itu menghasilkan kopi hijau dengan kualiti fizikal yang boleh dipercayai, rasa yang jelas, dan pembeli cerita boleh berdiri di belakang.",
+      "qualityDescription2": "Pendekatan kami adalah praktikal dan peribadi: mendengar penanam, melindungi watak setiap tuaian, dan memberi pengimport dan pemanggang maklumat yang mereka perlukan untuk membeli dengan yakin.",
+      "offerList": "Minta senarai tawaran semasa kami",
+      "qualities": [
+        [
+          "Gred khusus",
+          "Lot terpilih mendapat markah 80+ dengan asal yang jelas dan cawan yang bersih dan ekspresif."
+        ],
+        [
+          "Perwatakan semula jadi",
+          "Profil manis berpandukan buah yang dibentuk oleh tanah, ketinggian, dan pemprosesan pesakit."
+        ],
+        [
+          "Bekalan yang bertanggungjawab",
+          "Hubungan petani jangka panjang menyokong nilai yang lebih adil dan hasil tuaian yang berdaya tahan."
+        ],
+        [
+          "Eksport sedia",
+          "Penyediaan yang konsisten, pembungkusan selamat, dan sokongan praktikal dari sampel ke penghantaran."
+        ]
+      ],
+      "aboutEyebrow": "Tentang Palapa",
+      "aboutTitle": "Siapa kita?",
+      "aboutDescription1": "Kopi Palapa diasaskan daripada keyakinan yang mudah: kopi Jawa yang luar biasa layak mendapat laluan yang jelas ke dunia. Berpusat di Bandung, kami menghubungkan kerja penanam dan pemproses Jawa Barat dengan pengimport, pemanggang bebas dan kedai kopi yang mementingkan asal usul.",
+      "aboutDescription2": "Kami adalah rakan kongsi eksport dengan kaki kami di asal. Ini bermakna lebih sedikit lapisan, komunikasi yang jujur ​​dan perhatian kepada butiran yang penting, daripada sampel dan spesifikasi kepada penyediaan dan penghantaran.",
+      "quote": "Kami mahu setiap perhubungan dirasakan sebagai dianggap sebagai kopi itu sendiri.",
+      "founder": "Pengasas, Kopi Palapa",
+      "bandungIndonesia": "Bandung · Indonesia",
+      "contactEyebrow": "Mari bercakap tentang kopi",
+      "contactTitle": "Bawa rasa Jawa ke pasaran anda.",
+      "contactDescription": "Beritahu kami apa yang anda cari. Kami mengalu-alukan permintaan sampel, perbualan sumber dan perkongsian jangka panjang.",
+      "whatsapp": "WhatsApp",
+      "startConversation": "Mulakan perbualan",
+      "email": "E-mel",
+      "ourBase": "Pangkalan kami",
+      "footerTagline": "Kopi hijau dari Bandung, Indonesia.",
+      "chatWhatsapp": "Berbual dengan Kopi Palapa di WhatsApp",
+      "chatLabel": "Sembang di WhatsApp"
+    }
+  }
+}
