@@ -54,11 +54,11 @@
     },
     {
       "code": "ar",
-      "label": "العربية الجزائرية"
+      "label": "العربية (الجزائر)"
     },
     {
       "code": "ha",
-      "label": "Hausa"
+      "label": "Hausa (Nigeria)"
     }
   ],
   "translations": {
@@ -71,8 +71,8 @@
       "navAbout": "About Us",
       "navContact": "Contact Us",
       "heroEyebrow": "From Java · To the world",
-      "heroTitle": "Bandung coffee, beautifully expressed.",
-      "heroDescription": "Green coffee rooted in the Sunda highlands, selected with care and prepared for roasters around the world.",
+      "heroTitle": "Export-ready green coffee from the Bandung Highlands.",
+      "heroDescription": "Traceable green coffee from West Java, carefully selected and prepared for importers and roasters worldwide.",
       "discover": "Discover our origin",
       "coordinates": "West Java, Indonesia · 6.9° S · 107.6° E",
       "originEyebrow": "Coffee origin",
@@ -99,7 +99,7 @@
       "videoStory": "Coffee process story",
       "watchVideo": "Watch on YouTube",
       "qualityEyebrow": "Coffee quality",
-      "qualityTitle": "Our oath is to give sustainable and natural coffee to the world.",
+      "qualityTitle": "Our commitment is to bring responsibly sourced Indonesian coffee to the world.",
       "qualityDescription1": "Quality starts long before a sample reaches the cupping table. We work close to origin, following every lot from cherry selection through processing and final preparation. That care creates green coffee with dependable physical quality, clear flavor, and a story buyers can stand behind.",
       "qualityDescription2": "Our approach is practical and personal: listen to growers, protect the character of each harvest, and give importers and roasters the information they need to buy with confidence.",
       "offerList": "Request our current offer list",
@@ -122,7 +122,7 @@
         ]
       ],
       "aboutEyebrow": "About Palapa",
-      "aboutTitle": "Who we are?",
+      "aboutTitle": "Who are we?",
       "aboutDescription1": "Palapa Coffee was founded from a simple conviction: remarkable Java coffee deserves a clear path to the world. Based in Bandung, we connect the work of West Java’s growers and processors with importers, independent roasters, and coffee shops who care about origin.",
       "aboutDescription2": "We are an export partner with our feet at origin. That means fewer layers, honest communication, and attention to the details that matter, from samples and specifications to preparation and shipment.",
       "quote": "We want every relationship to feel as considered as the coffee itself.",
