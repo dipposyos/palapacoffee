@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import languageData from '../translations.json';
-import { isLocale, languageAlternates, locales } from '../locales';
+import { isLocale, locales } from '../locales';
 import SiteHome from '../site-home';
 
 type LocalePageProps = {
@@ -24,13 +24,24 @@ export async function generateMetadata({ params }: LocalePageProps): Promise<Met
     description: translation.heroDescription,
     alternates: {
       canonical: `/${locale}`,
-      languages: languageAlternates,
     },
     openGraph: {
       locale,
       title: `Palapa Coffee | ${translation.heroTitle}`,
       description: translation.heroDescription,
       url: `/${locale}`,
+      images: [{
+        url: '/images/bandung-coffee-drying-process.jpeg',
+        width: 1078,
+        height: 1200,
+        alt: translation.bandungHighlands,
+      }],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `Palapa Coffee | ${translation.heroTitle}`,
+      description: translation.heroDescription,
+      images: ['/images/bandung-coffee-drying-process.jpeg'],
     },
   };
 }

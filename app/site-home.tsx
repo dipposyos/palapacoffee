@@ -15,7 +15,7 @@ export default function SiteHome({ initialLocale = 'en' }: { initialLocale?: Loc
 
   useEffect(() => {
     document.documentElement.lang = locale;
-    document.documentElement.dir = locale === 'ar' ? 'rtl' : 'ltr';
+    document.documentElement.dir = locale.startsWith('ar') ? 'rtl' : 'ltr';
   }, [locale]);
 
   return <main>
@@ -44,7 +44,7 @@ export default function SiteHome({ initialLocale = 'en' }: { initialLocale?: Loc
     </section>
 
     <section id="quality" className="section quality">
-      <div className="quality-intro"><img src={content.images.quality} alt="Ripe coffee cherries being carefully selected" loading="lazy" decoding="async"/><div><div className="eyebrow light"><span/> {t.qualityEyebrow}</div><h2>{t.qualityTitle}</h2><p>{t.qualityDescription1}</p><p>{t.qualityDescription2}</p><a href="#contact">{t.offerList} <ArrowUpRight size={17} aria-hidden="true"/></a></div></div>
+      <div className="quality-intro"><img src={content.images.quality} alt="Ripe coffee cherries being carefully selected" loading="lazy" decoding="async"/><div><div className="eyebrow light"><span/> {t.qualityEyebrow}</div><h2>{t.qualityTitle}</h2><p>{t.qualityDescription1}</p><p>{t.qualityDescription2}</p><a href="/green-coffee">{t.offerList} <ArrowUpRight size={17} aria-hidden="true"/></a></div></div>
       <div className="quality-grid">{t.qualities.map((quality,i)=><article key={i}><img src={content.images.qualityCards[i]} alt={`${quality[0]} coffee quality`} loading="lazy" decoding="async"/><span>0{i+1}</span><h3>{quality[0]}</h3><p>{quality[1]}</p></article>)}</div>
     </section>
 
@@ -58,6 +58,6 @@ export default function SiteHome({ initialLocale = 'en' }: { initialLocale?: Loc
       <div className="contact-title"><div><div className="eyebrow light"><span/> {t.contactEyebrow}</div><h2>{t.contactTitle}</h2></div><p>{t.contactDescription}</p></div>
       <div className="contact-grid"><a href={content.links.whatsapp} target="_blank" rel="noreferrer"><MessageCircle/><span>{t.whatsapp}</span><strong>{t.startConversation}</strong><ArrowUpRight className="corner"/></a><a href={`mailto:${content.links.email}`}><Mail/><span>{t.email}</span><strong>{content.links.email}</strong><ArrowUpRight className="corner"/></a><div><MapPin/><span>{t.ourBase}</span><strong>{content.address}</strong></div></div>
     </section>
-    <footer><a className="brand" href="#top"><span>Palapa</span> Coffee</a><p>{t.footerTagline}</p><div><a href={content.links.whatsapp}>{t.whatsapp}</a><a href={`mailto:${content.links.email}`}>{t.email}</a><a href={content.links.instagram} target="_blank" rel="noreferrer">Instagram</a></div><small>© 2026 Palapa Coffee</small></footer>
+    <footer><a className="brand" href="#top"><span>Palapa</span> Coffee</a><p>{t.footerTagline}</p><div><a href={content.links.whatsapp}>{t.whatsapp}</a><a href={`mailto:${content.links.email}`}>{t.email}</a><a href={content.links.instagram} target="_blank" rel="noreferrer">Instagram</a></div><small>© 2026 Palapa Coffee</small><nav className="footer-seo-links" aria-label="Site links"><a href="/green-coffee">{t.navQuality}</a><a href="/export-process">Export Process</a><a href="/privacy">Privacy</a></nav><nav className="footer-language-links" aria-label="Language versions">{languageData.languageOptions.map((language)=><a key={language.code} href={language.code === 'en' ? '/' : `/${language.code}`} hrefLang={language.code}>{language.label}</a>)}</nav></footer>
   </main>
 }
