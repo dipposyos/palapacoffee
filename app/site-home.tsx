@@ -24,8 +24,8 @@ export default function SiteHome({ initialLocale = 'en' }: { initialLocale?: Loc
       <a className="brand" href="#top" aria-label={t.home}><span>Palapa</span> Coffee</a>
       <div className="header-actions">
         <label className="language-picker"><span className="sr-only">Select language</span><select value={locale} onChange={(event) => { const nextLocale = event.target.value as Locale; window.location.href = nextLocale === 'en' ? '/' : `/${nextLocale}`; }} aria-label="Select language">{languageData.languageOptions.map((language) => <option key={language.code} value={language.code}>{language.label}</option>)}</select></label>
-        <nav className="desktop-nav" aria-label="Primary navigation"><a href="#origin">{t.navOrigin}</a><a href="#quality">{t.navQuality}</a><a href="#about">{t.navAbout}</a><a className="contact-button" href="#contact">{t.navContact} <ArrowUpRight size={16} aria-hidden="true"/></a></nav>
-        <details className="mobile-nav"><summary aria-label={t.openMenu}><Menu aria-hidden="true"/></summary><nav aria-label="Mobile navigation"><a href="#origin">{t.navOrigin}</a><a href="#quality">{t.navQuality}</a><a href="#about">{t.navAbout}</a><a href="#contact">{t.navContact}</a></nav></details>
+        <nav className="desktop-nav" aria-label="Primary navigation"><a href="#origin">{t.navOrigin}</a><a href="#quality">{t.navQuality}</a><a href="#about">{t.navAbout}</a><a href="#legalitas">Legalitas</a><a className="contact-button" href="#contact">{t.navContact} <ArrowUpRight size={16} aria-hidden="true"/></a></nav>
+        <details className="mobile-nav"><summary aria-label={t.openMenu}><Menu aria-hidden="true"/></summary><nav aria-label="Mobile navigation"><a href="#origin">{t.navOrigin}</a><a href="#quality">{t.navQuality}</a><a href="#about">{t.navAbout}</a><a href="#legalitas">Legalitas</a><a href="#contact">{t.navContact}</a></nav></details>
       </div>
     </header>
     <a className="floating-whatsapp" href={content.links.whatsapp} target="_blank" rel="noreferrer" aria-label={t.chatWhatsapp}><WhatsAppIcon/><span>{t.chatLabel}</span></a>
@@ -52,6 +52,20 @@ export default function SiteHome({ initialLocale = 'en' }: { initialLocale?: Loc
       <div className="about-pictures left"><img src={content.images.about[0]} alt="Coffee farmer in Bandung" loading="lazy" decoding="async"/><img src={content.images.about[1]} alt="Coffee cherries ripening on a tree" loading="lazy" decoding="async"/></div>
       <div className="about-copy"><div className="eyebrow"><span/> {t.aboutEyebrow}</div><h2>{t.aboutTitle}</h2><p>{t.aboutDescription1}</p><p>{t.aboutDescription2}</p><blockquote>“{t.quote}”</blockquote><div className="signature">{t.founder}<br/><span>{t.bandungIndonesia}</span></div></div>
       <div className="about-pictures right"><img src={content.images.about[2]} alt="West Java coffee-growing landscape" loading="lazy" decoding="async"/><img src={content.images.about[3]} alt="Coffee cupping and quality evaluation" loading="lazy" decoding="async"/></div>
+    </section>
+
+    <section id="legalitas" className="section legalitas">
+      <div className="section-heading legalitas-heading"><div><div className="eyebrow"><span/> Registered in Indonesia</div><h2>Legalitas</h2></div><p>Palapa Coffee operates under PT Sihombing Berkat Abadi, a company registered with the Government of the Republic of Indonesia. Select either document to inspect it at full size.</p></div>
+      <div className="legalitas-grid">
+        <a className="legalitas-card" href="/images/legalitas/nib-first-page.png" target="_blank" rel="noreferrer" aria-label="Open the first page of the Business Identification Number document at full size">
+          <div className="legalitas-caption"><div><span>Government registration</span><h3>Business Identification Number (NIB)</h3></div><ArrowUpRight size={20} aria-hidden="true"/></div>
+          <div className="legalitas-document"><img src="/images/legalitas/nib-first-page.png" alt="First page of the Indonesian Business Identification Number document for PT Sihombing Berkat Abadi" loading="lazy" decoding="async"/></div>
+        </a>
+        <a className="legalitas-card" href="/images/legalitas/company-certificate-first-page.png" target="_blank" rel="noreferrer" aria-label="Open the first page of the company registration certificate at full size">
+          <div className="legalitas-caption"><div><span>Legal entity registration</span><h3>Company Registration Certificate</h3></div><ArrowUpRight size={20} aria-hidden="true"/></div>
+          <div className="legalitas-document"><img src="/images/legalitas/company-certificate-first-page.png" alt="First page of the Indonesian company registration certificate for PT Sihombing Berkat Abadi" loading="lazy" decoding="async"/></div>
+        </a>
+      </div>
     </section>
 
     <section id="contact" className="contact">
