@@ -53,7 +53,7 @@ export const content = {
     ],
     about: [
       '/images/west-java-coffee-farm.jpeg',
-      '/images/bandung-coffee-drying-process.jpeg',
+      '/images/palapa-coffee-about-team.jpg',
       '/images/bandung-green-coffee-sorting.jpeg',
       '/images/bandung-green-coffee-beans.jpeg',
     ],

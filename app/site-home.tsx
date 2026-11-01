@@ -49,7 +49,7 @@ export default function SiteHome({ initialLocale = 'en' }: { initialLocale?: Loc
     </section>
 
     <section id="about" className="section about">
-      <div className="about-pictures left"><img src={content.images.about[0]} width={750} height={1000} alt="Coffee farmer in Bandung" loading="lazy" decoding="async"/><img src={content.images.about[1]} width={1078} height={1200} alt="Coffee cherries ripening on a tree" loading="lazy" decoding="async"/></div>
+      <div className="about-pictures left"><img src={content.images.about[0]} width={750} height={1000} alt="Coffee farmer in Bandung" loading="lazy" decoding="async"/><img src={content.images.about[1]} width={1400} height={1867} alt="Palapa Coffee visiting a coffee processing partner in West Java" loading="lazy" decoding="async"/></div>
       <div className="about-copy"><div className="eyebrow"><span/> {t.aboutEyebrow}</div><h2>{t.aboutTitle}</h2><p>{t.aboutDescription1}</p><p>{t.aboutDescription2}</p><blockquote>“{t.quote}”</blockquote><div className="signature">{content.companyProfile.founder} · {content.companyProfile.founderTitle}<br/><span>{content.companyProfile.legalName} · Established {content.companyProfile.founded}</span></div></div>
       <div className="about-pictures right"><img src={content.images.about[2]} width={800} height={800} alt="West Java coffee-growing landscape" loading="lazy" decoding="async"/><img src={content.images.about[3]} width={750} height={1000} alt="Coffee cupping and quality evaluation" loading="lazy" decoding="async"/></div>
     </section>
