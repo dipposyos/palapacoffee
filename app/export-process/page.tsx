@@ -20,6 +20,17 @@ const steps = [
 ] as const;
 
 export default function ExportProcessPage() {
+  const tradeFacts = [
+    ['Trade term', content.trade.incoterm],
+    ['Port of departure', content.trade.port],
+    ['Preparation estimate', content.trade.preparationTime],
+    ['Peak-harvest capacity', content.trade.peakCapacity],
+    ['Payment methods', content.trade.paymentMethods],
+    ['Sample policy', content.trade.samples],
+    ['Export documents', content.trade.documents],
+    ['Laboratory information', content.trade.labResults],
+    ['Inspection', content.trade.inspection],
+  ];
   return <main className="inner-page">
     <InnerHeader />
     <section className="inner-hero compact">
@@ -30,7 +41,8 @@ export default function ExportProcessPage() {
     </section>
     <section className="exporter-overview" aria-labelledby="export-guide-title"><div><div className="eyebrow"><span/> For international buyers</div><h2 id="export-guide-title">What buyers should confirm before shipment.</h2></div><div><p>A workable coffee export plan starts with the buyer’s destination, expected volume, quality target, timeline, packaging, and preferred trade terms. These details affect the lot match, sampling route, preparation, documents, logistics, and final commercial offer.</p><p>Palapa Coffee confirms the current coffee and shipment requirements in writing before preparation begins. Buyers can review our <a href="/green-coffee">Indonesian green coffee range</a> and request current lot information before discussing shipment.</p></div></section>
     <section className="process-steps" aria-label="Export process steps">{steps.map(([title, description], index) => <article key={title}><span>0{index + 1}</span><h2>{title}</h2><p>{description}</p></article>)}</section>
-    <section className="buyer-note"><div><div className="eyebrow light"><span/> Documentation</div><h2>Confirmed per shipment.</h2></div><div><p>Documentation varies by buyer, destination, product, and trade terms. We do not publish a fixed document promise without reviewing the shipment requirements.</p><p>Ask us to confirm the document set for your destination before placing an order.</p></div></section>
+    <section className="origin-facts trade-facts"><div className="inner-section-heading"><div><div className="eyebrow"><span/> Current trade framework</div><h2>Commercial starting points.</h2></div><p>These are working parameters, not a binding offer. Final availability, timing, documents, payment conditions, and responsibilities are confirmed in writing for each lot and destination.</p></div><dl>{tradeFacts.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl></section>
+    <section className="buyer-note"><div><div className="eyebrow light"><span/> Documentation</div><h2>Confirmed per shipment.</h2></div><div><p>Our starting document set includes a Phytosanitary Certificate and Certificate of Origin. Other destination-specific documents are reviewed and accommodated where possible.</p><p>Palapa Coffee operates under {content.companyProfile.legalName}, established in {content.companyProfile.founded}. Ask us to confirm the final document set before placing an order.</p><a className="text-link light" href="/request-quote">Request a shipment review <ArrowUpRight size={17}/></a></div></section>
   </main>;
 }
 

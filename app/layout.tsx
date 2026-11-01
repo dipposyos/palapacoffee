@@ -4,6 +4,7 @@ import { Geist, Geist_Mono } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
 import { isLocale, languageAlternates } from './locales';
+import { content } from '../site.config';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -74,11 +75,18 @@ const structuredData = {
       '@type': 'Organization',
       '@id': 'https://palapacoffee.com/#organization',
       name: 'Palapa Coffee',
+      legalName: content.companyProfile.legalName,
       url: 'https://palapacoffee.com',
       logo: 'https://palapacoffee.com/icon-512.png',
       email: 'palapacoffee46@gmail.com',
       sameAs: ['https://instagram.com/palapa.coffee'],
       telephone: '+6281212158146',
+      foundingDate: content.companyProfile.founded,
+      founder: {
+        '@type': 'Person',
+        name: content.companyProfile.founder,
+        jobTitle: content.companyProfile.founderTitle,
+      },
       contactPoint: {
         '@type': 'ContactPoint',
         contactType: 'sales',
@@ -88,7 +96,7 @@ const structuredData = {
       },
       address: {
         '@type': 'PostalAddress',
-        addressLocality: 'Bandung',
+        addressLocality: 'Bekasi',
         addressRegion: 'West Java',
         addressCountry: 'ID',
       },

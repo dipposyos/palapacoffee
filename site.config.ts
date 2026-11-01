@@ -5,12 +5,31 @@
  */
 export const content = {
   company: 'Palapa Coffee',
+  companyProfile: {
+    legalName: 'PT Sihombing Berkat Abadi',
+    founded: '2024',
+    founder: 'Dippos Yosafat',
+    founderTitle: 'Founder and CEO',
+    office: 'Bekasi, West Java, Indonesia',
+    mission: 'To help Indonesian coffee farmers progress and contribute to the growth of Indonesia’s coffee industry by connecting carefully prepared coffee with international buyers.',
+  },
+  trade: {
+    incoterm: 'FOB',
+    port: 'Tanjung Priok, Jakarta, Indonesia',
+    preparationTime: 'Approximately 1–2 months after lot and commercial confirmation',
+    peakCapacity: 'Up to 20 metric tons of green coffee during peak harvest, subject to lot availability',
+    paymentMethods: 'Letter of Credit (L/C) and Telegraphic Transfer (T/T), subject to commercial agreement',
+    documents: 'Phytosanitary Certificate and Certificate of Origin (COO); other destination-specific documents are reviewed and accommodated where possible',
+    labResults: 'Available vendor laboratory results can be shared for the relevant coffee or shipment',
+    inspection: 'Third-party inspection is not standard but can be arranged by agreement',
+    samples: 'Coffee samples are free; courier and logistics costs are paid by the buyer',
+  },
   links: {
     whatsapp: 'https://wa.me/6281212158146?text=Hey%2C%20I%20want%20to%20ask%20about%20Palapa%20Coffee.',
     email: 'palapacoffee46@gmail.com',
     instagram: 'https://instagram.com/palapa.coffee',
   },
-  address: 'Bandung, West Java, Indonesia',
+  address: 'Bekasi, West Java, Indonesia',
   videos: [
     { id: 'd1StS0x8xr0', url: 'https://youtube.com/shorts/d1StS0x8xr0?feature=share', title: 'Coffee process story 01' },
     { id: 'rapPar2DW4c', url: 'https://youtube.com/shorts/rapPar2DW4c?feature=share', title: 'Coffee process story 02' },
