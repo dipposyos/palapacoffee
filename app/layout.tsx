@@ -101,16 +101,6 @@ const structuredData = {
       publisher: { '@id': 'https://palapacoffee.com/#organization' },
       inLanguage: 'en',
     },
-    {
-      '@type': 'Product',
-      '@id': 'https://palapacoffee.com/#green-coffee',
-      name: 'Bandung Green Coffee Beans',
-      description: 'Traceable, export-ready green coffee from the Bandung Highlands in West Java, Indonesia.',
-      image: 'https://palapacoffee.com/images/bandung-green-coffee-beans.jpeg',
-      brand: { '@id': 'https://palapacoffee.com/#organization' },
-      countryOfOrigin: { '@type': 'Country', name: 'Indonesia' },
-      category: 'Green coffee beans',
-    },
   ],
 };
 

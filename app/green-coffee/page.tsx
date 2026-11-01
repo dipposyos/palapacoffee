@@ -5,7 +5,7 @@ import { coffeeProducts } from '../product-data';
 import { content } from '../../site.config';
 
 export const metadata: Metadata = {
-  title: 'Indonesian Green Coffee from Bandung',
+  title: 'Indonesian Green Coffee Beans from Bandung',
   description: 'Explore traceable Bandung Arabica green coffee in natural, washed, and honey processes, prepared for importers and roasters worldwide.',
   alternates: { canonical: '/green-coffee' },
   openGraph: {
@@ -17,6 +17,37 @@ export const metadata: Metadata = {
 };
 
 export default function GreenCoffeePage() {
+  const listingSchema = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'CollectionPage',
+        '@id': 'https://palapacoffee.com/green-coffee#webpage',
+        url: 'https://palapacoffee.com/green-coffee',
+        name: 'Indonesian Green Coffee Beans from Bandung',
+        description: 'Traceable Bandung Arabica green coffee in natural, washed, and honey processes for importers and roasters.',
+        isPartOf: { '@id': 'https://palapacoffee.com/#website' },
+      },
+      {
+        '@type': 'ItemList',
+        name: 'Bandung Arabica green coffee options',
+        itemListElement: coffeeProducts.map((product, index) => ({
+          '@type': 'ListItem',
+          position: index + 1,
+          name: product.name,
+          url: `https://palapacoffee.com/coffee/${product.slug}`,
+        })),
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://palapacoffee.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Indonesian Green Coffee', item: 'https://palapacoffee.com/green-coffee' },
+        ],
+      },
+    ],
+  };
+
   return <main className="inner-page">
     <InnerHeader />
     <section className="inner-hero">
@@ -41,6 +72,7 @@ export default function GreenCoffeePage() {
       <div><div className="eyebrow light"><span/> Lot-specific buying</div><h2>No invented specifications.</h2></div>
       <div><p>Coffee changes from harvest to harvest. We provide the exact variety, moisture, density, screen distribution, defect count, cupping notes, available volume, packaging, and commercial terms for the lot you are considering.</p><p>Tell us your destination, target volume, preferred process, and cup profile. We will respond with the most relevant current options.</p></div>
     </section>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(listingSchema) }} />
   </main>;
 }
 

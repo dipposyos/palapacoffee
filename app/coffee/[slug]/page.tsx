@@ -33,19 +33,32 @@ export default async function ProductPage({ params }: ProductPageProps) {
   const product = getCoffeeProduct((await params).slug);
   if (!product) notFound();
 
-  const productSchema = {
+  const productUrl = `https://palapacoffee.com/coffee/${product.slug}`;
+  const pageSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: product.name,
-    description: product.description,
-    image: `https://palapacoffee.com${product.image}`,
-    brand: { '@type': 'Brand', name: 'Palapa Coffee' },
-    countryOfOrigin: { '@type': 'Country', name: 'Indonesia' },
-    category: 'Green coffee beans',
-    additionalProperty: [
-      { '@type': 'PropertyValue', name: 'Origin', value: product.origin },
-      { '@type': 'PropertyValue', name: 'Process', value: product.process },
-      { '@type': 'PropertyValue', name: 'Altitude', value: product.altitude },
+    '@graph': [
+      {
+        '@type': 'WebPage',
+        '@id': `${productUrl}#webpage`,
+        url: productUrl,
+        name: `${product.name} Green Coffee`,
+        description: product.description,
+        image: `https://palapacoffee.com${product.image}`,
+        isPartOf: { '@id': 'https://palapacoffee.com/#website' },
+        about: {
+          '@type': 'Thing',
+          name: `${product.name} green coffee beans`,
+          description: `${product.process}-process Arabica green coffee from ${product.origin} at ${product.altitude}.`,
+        },
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://palapacoffee.com/' },
+          { '@type': 'ListItem', position: 2, name: 'Indonesian Green Coffee', item: 'https://palapacoffee.com/green-coffee' },
+          { '@type': 'ListItem', position: 3, name: product.name, item: productUrl },
+        ],
+      },
     ],
   };
 
@@ -69,7 +82,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
       </dl>
     </section>
     <section className="sample-cta"><div><div className="eyebrow light"><span/> Sample first</div><h2>Evaluate the coffee before you commit.</h2></div><div><p>Share your company, country, expected volume, roast market, and preferred profile. We will confirm suitable lots and the sampling process.</p><a className="text-link light" href={content.links.whatsapp} target="_blank" rel="noreferrer">Ask for current samples <ArrowUpRight size={17}/></a></div></section>
-    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} />
+    <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
   </main>;
 }
 
