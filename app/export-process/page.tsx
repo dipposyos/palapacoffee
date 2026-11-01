@@ -4,8 +4,8 @@ import { InnerHeader } from '../inner-header';
 import { content } from '../../site.config';
 
 export const metadata: Metadata = {
-  title: 'Green Coffee Export Process from Indonesia',
-  description: 'Understand how Palapa Coffee handles buyer requirements, samples, lot confirmation, preparation, documentation, and shipment coordination from Bandung.',
+  title: 'Coffee Export from Indonesia: Process & Documentation',
+  description: 'How Palapa Coffee coordinates Indonesian green coffee export: buyer requirements, samples, lot confirmation, preparation, documentation, and shipment planning.',
   alternates: { canonical: '/export-process' },
   openGraph: { title: 'Green Coffee Export Process | Palapa Coffee', description: 'From buyer brief and samples to lot preparation and shipment coordination.', url: '/export-process', images: ['/images/bandung-coffee-drying-process.jpeg'] },
 };
@@ -23,11 +23,12 @@ export default function ExportProcessPage() {
   return <main className="inner-page">
     <InnerHeader />
     <section className="inner-hero compact">
-      <div className="eyebrow"><span/> Indonesia coffee export support</div>
-      <h1>From sample<br/><em>to shipment.</em></h1>
-      <p>A clear, buyer-led process for sourcing green coffee from Bandung. Exact documents, costs, timing, and responsibilities are confirmed for each destination and shipment.</p>
+      <div className="eyebrow"><span/> Coffee export from Indonesia</div>
+      <h1>Exporting green coffee<br/><em>from Indonesia.</em></h1>
+      <p>A clear, buyer-led process for sourcing and exporting green coffee beans from Bandung, West Java. Exact documents, costs, timing, and responsibilities are confirmed for each destination and shipment.</p>
       <a className="text-link" href={content.links.whatsapp} target="_blank" rel="noreferrer">Discuss your requirements <ArrowUpRight size={17}/></a>
     </section>
+    <section className="exporter-overview" aria-labelledby="export-guide-title"><div><div className="eyebrow"><span/> For international buyers</div><h2 id="export-guide-title">What buyers should confirm before shipment.</h2></div><div><p>A workable coffee export plan starts with the buyer’s destination, expected volume, quality target, timeline, packaging, and preferred trade terms. These details affect the lot match, sampling route, preparation, documents, logistics, and final commercial offer.</p><p>Palapa Coffee confirms the current coffee and shipment requirements in writing before preparation begins. Buyers can review our <a href="/green-coffee">Indonesian green coffee range</a> and request current lot information before discussing shipment.</p></div></section>
     <section className="process-steps" aria-label="Export process steps">{steps.map(([title, description], index) => <article key={title}><span>0{index + 1}</span><h2>{title}</h2><p>{description}</p></article>)}</section>
     <section className="buyer-note"><div><div className="eyebrow light"><span/> Documentation</div><h2>Confirmed per shipment.</h2></div><div><p>Documentation varies by buyer, destination, product, and trade terms. We do not publish a fixed document promise without reviewing the shipment requirements.</p><p>Ask us to confirm the document set for your destination before placing an order.</p></div></section>
   </main>;
