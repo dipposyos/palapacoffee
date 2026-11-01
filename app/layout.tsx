@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { headers } from 'next/headers';
 import { Geist, Geist_Mono } from 'next/font/google';
+import Script from 'next/script';
 import './globals.css';
 import { isLocale, languageAlternates } from './locales';
 
@@ -126,16 +127,27 @@ export default async function RootLayout({
 
   return (
     <html lang={locale} dir={locale.startsWith('ar') ? 'rtl' : 'ltr'}>
-      {isLocalizedHome && <head>
-        <link rel="preload" as="image" href="/images/west-java-coffee-farm.jpeg" fetchPriority="high" />
-        {Object.entries(languageAlternates).map(([language, path]) =>
-          <link key={language} rel="alternate" hrefLang={language} href={`https://palapacoffee.com${path}`} />
+      <head>
+        {isLocalizedHome && (
+          <>
+            <link rel="preload" as="image" href="/images/west-java-coffee-farm.jpeg" fetchPriority="high" />
+            {Object.entries(languageAlternates).map(([language, path]) => (
+              <link key={language} rel="alternate" hrefLang={language} href={`https://palapacoffee.com${String(path)}`} />
+            ))}
+          </>
         )}
-      </head>}
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-8K6ZER5RXB" strategy="afterInteractive" />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-8K6ZER5RXB');`}
+        </Script>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
