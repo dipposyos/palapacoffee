@@ -94,7 +94,7 @@ export default function GreenCoffeePage() {
 
     <section className="exporter-overview" aria-labelledby="exporter-overview-title">
       <div><div className="eyebrow"><span/> Direct from Bandung</div><h2 id="exporter-overview-title">A green coffee export partner for professional buyers.</h2></div>
-      <div><p>Palapa Coffee connects the work of West Java growers and processors with coffee importers, independent roasters, distributors, and coffee shops outside Indonesia. Our focus is green coffee from the Bandung Highlands, with clear origin communication and buyer-specific commercial information.</p><p>Instead of publishing specifications that may become outdated, we confirm the current lot, harvest, process, physical analysis, cupping information, available volume, packaging, price, and shipment responsibilities for each inquiry.</p><a className="text-link" href="/export-process">See our coffee export process <ArrowUpRight size={16}/></a></div>
+      <div><p>Palapa Coffee connects the work of West Java growers and processors with coffee importers, independent roasters, distributors, and coffee shops outside Indonesia. Our focus is green coffee from the <a href="/origins/bandung-highlands">Bandung Highlands</a>, with clear origin communication and buyer-specific commercial information.</p><p>Instead of publishing specifications that may become outdated, we confirm the current lot, harvest, process, physical analysis, cupping information, available volume, packaging, price, and shipment responsibilities for each inquiry.</p><a className="text-link" href="/export-process">See our coffee export process <ArrowUpRight size={16}/></a></div>
     </section>
 
     <section className="product-listing" aria-labelledby="coffee-options">
@@ -110,7 +110,7 @@ export default function GreenCoffeePage() {
 
     <section className="buyer-note">
       <div><div className="eyebrow light"><span/> Lot-specific buying</div><h2>No invented specifications.</h2></div>
-      <div><p>Coffee changes from harvest to harvest. We provide the exact variety, moisture, density, screen distribution, defect count, cupping notes, available volume, packaging, and commercial terms for the lot you are considering.</p><p>Tell us your destination, target volume, preferred process, and cup profile. We will respond with the most relevant current options.</p></div>
+      <div><p>Coffee changes from harvest to harvest. We provide the exact variety, moisture, density, screen distribution, defect count, cupping notes, available volume, packaging, and commercial terms for the lot you are considering.</p><p>Tell us your destination, target volume, preferred process, and cup profile. We will respond with the most relevant current options.</p><a className="text-link light" href="/request-quote">Send your buying requirements <ArrowUpRight size={16}/></a></div>
     </section>
     <section className="buyer-faq" aria-labelledby="buyer-faq-title">
       <div className="inner-section-heading"><div className="eyebrow"><span/> Buyer questions</div><h2 id="buyer-faq-title">Importing green coffee from Indonesia.</h2></div>
