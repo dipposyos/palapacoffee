@@ -4,8 +4,8 @@ import { InnerHeader } from '../../inner-header';
 import { content } from '../../../site.config';
 
 export const metadata: Metadata = {
-  title: 'Bandung Highlands Green Coffee Origin, West Java',
-  description: 'Discover Arabica green coffee from the Bandung Highlands of West Java, Indonesia: volcanic highland origin, 1,200–1,700 MASL, and natural, washed, and honey processing.',
+  title: 'Bandung Arabica Green Coffee | West Java Origin',
+  description: 'Discover Bandung Arabica green coffee from Pangalengan and Ciwidey, West Java: 1,200–1,700 MASL with natural, washed, and honey processing.',
   alternates: { canonical: '/origins/bandung-highlands' },
   openGraph: {
     title: 'Bandung Highlands Green Coffee Origin | Palapa Coffee',

@@ -5,11 +5,11 @@ import { coffeeProducts } from '../product-data';
 import { content } from '../../site.config';
 
 export const metadata: Metadata = {
-  title: 'Indonesian Green Coffee Bean Exporter from Java',
+  title: 'Indonesian Green Coffee Beans Supplier | Bandung Arabica',
   description: 'Source traceable Indonesian Arabica green coffee beans from Bandung, West Java. Natural, washed, and honey lots for importers, roasters, and distributors.',
   alternates: { canonical: '/green-coffee' },
   openGraph: {
-    title: 'Indonesian Green Coffee Bean Exporter from Java',
+    title: 'Indonesian Green Coffee Beans Supplier | Palapa Coffee',
     description: 'Natural, washed, and honey process Arabica from Bandung, West Java, prepared for international coffee buyers.',
     url: '/green-coffee',
     images: ['/images/bandung-green-coffee-beans.jpeg'],

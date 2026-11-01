@@ -4,8 +4,8 @@ import { QuoteForm } from './quote-form';
 import { content } from '../../site.config';
 
 export const metadata: Metadata = {
-  title: 'Request Indonesian Green Coffee Samples & Quote',
-  description: 'Send your green coffee buying requirements to Palapa Coffee. Request current Bandung Arabica lots, samples, availability, packaging, and export terms.',
+  title: 'Wholesale Indonesian Green Coffee Samples & Quote',
+  description: 'Request wholesale Indonesian green coffee samples and a current quote. Share your destination, volume, process, packaging, and shipment requirements.',
   alternates: { canonical: '/request-quote' },
   openGraph: {
     title: 'Request Indonesian Green Coffee Samples & Quote | Palapa Coffee',
@@ -27,7 +27,7 @@ export default function RequestQuotePage() {
 
   return <main className="inner-page quote-page">
     <InnerHeader />
-    <section className="quote-intro"><div className="eyebrow"><span/> Green coffee buying inquiry</div><h1>Tell us what<br/><em>you need.</em></h1><p>Share a clear buying brief so we can match your requirements with current Bandung Arabica lots. We will confirm availability and commercial details rather than send outdated generic specifications.</p></section>
+    <section className="quote-intro"><div className="eyebrow"><span/> Green coffee buying inquiry</div><h1>Request Indonesian<br/><em>green coffee samples.</em></h1><p>Share a clear buying brief so we can match your requirements with current Bandung Arabica lots. We will confirm availability and commercial details rather than send outdated generic specifications.</p></section>
     <section className="quote-layout">
       <div className="quote-guidance"><div className="eyebrow"><span/> Before you inquire</div><h2>A useful brief gets a useful answer.</h2><p>Please provide the details you already know. If you are still exploring, leave the optional fields open and tell us about your business and destination market.</p><ul><li>{content.trade.samples}.</li><li>Our current commercial starting point is {content.trade.incoterm} from {content.trade.port}.</li><li>MOQ, availability, timing, and final shipment terms depend on the selected lot and destination.</li><li>Submitting this form prepares a WhatsApp message; you choose whether to send it.</li></ul></div>
       <QuoteForm />

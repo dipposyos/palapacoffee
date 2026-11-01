@@ -4,8 +4,8 @@ import { InnerHeader } from '../inner-header';
 import { content } from '../../site.config';
 
 export const metadata: Metadata = {
-  title: 'Coffee Export from Indonesia: Process & Documentation',
-  description: 'How Palapa Coffee coordinates Indonesian green coffee export: buyer requirements, samples, lot confirmation, preparation, documentation, and shipment planning.',
+  title: 'Coffee Export from Indonesia | Process & FOB Documents',
+  description: 'How Palapa Coffee coordinates green coffee export from Indonesia: samples, lot confirmation, FOB Tanjung Priok, preparation, documents, and shipment planning.',
   alternates: { canonical: '/export-process' },
   openGraph: { title: 'Green Coffee Export Process | Palapa Coffee', description: 'From buyer brief and samples to lot preparation and shipment coordination.', url: '/export-process', images: ['/images/bandung-coffee-drying-process.jpeg'] },
 };

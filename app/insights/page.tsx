@@ -4,7 +4,7 @@ import { InnerHeader } from '../inner-header';
 import { insightPosts } from './blog-data';
 
 export const metadata: Metadata = {
-  title: 'Indonesian Green Coffee Insights for Buyers',
+  title: 'Green Coffee Buyer Guides | Indonesia Coffee Insights',
   description: 'Practical guides for importers and roasters sourcing Indonesian green coffee: Bandung origins, samples, specifications, FOB terms, documents, and shipment planning.',
   alternates: { canonical: '/insights' },
   openGraph: { title: 'Indonesian Green Coffee Buyer Insights | Palapa Coffee', description: 'Origin and export guidance for professional green coffee buyers.', url: '/insights', images: ['/images/bandung-green-coffee-beans.jpeg'] },

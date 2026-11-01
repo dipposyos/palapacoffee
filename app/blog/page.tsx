@@ -4,7 +4,7 @@ import { InnerHeader } from '../inner-header';
 import { insightPosts } from '../insights/blog-data';
 
 export const metadata: Metadata = {
-  title: 'Palapa Coffee Blog | Indonesian Coffee Stories',
+  title: 'Indonesian Coffee Blog | Origin & Export Stories',
   description: 'News and practical knowledge about Indonesian coffee origins, farming, processing, quality, and green coffee export preparation.',
   alternates: { canonical: '/blog' },
   openGraph: { title: 'Palapa Coffee Blog', description: 'Coffee stories and buyer knowledge from West Java, Indonesia.', url: '/blog', images: ['/images/west-java-coffee-farm.jpeg'] },
