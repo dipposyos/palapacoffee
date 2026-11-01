@@ -1,10 +1,18 @@
 'use client';
 
-import { FormEvent, useState } from 'react';
+import { FormEvent, useRef, useState } from 'react';
 import { ArrowUpRight } from 'lucide-react';
 
 export function QuoteForm() {
   const [status, setStatus] = useState('');
+  const hasTrackedStart = useRef(false);
+
+  function trackStart() {
+    if (hasTrackedStart.current) return;
+    hasTrackedStart.current = true;
+    const analyticsWindow = window as typeof window & { gtag?: (...args: unknown[]) => void };
+    analyticsWindow.gtag?.('event', 'quote_form_start');
+  }
 
   function sendInquiry(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -29,11 +37,13 @@ export function QuoteForm() {
       `Required timeline: ${value('timeline') || 'To be discussed'}`,
       `Additional notes: ${value('notes') || 'None'}`,
     ].join('\n');
+    const analyticsWindow = window as typeof window & { gtag?: (...args: unknown[]) => void };
+    analyticsWindow.gtag?.('event', 'quote_form_complete', { destination_country: value('country'), expected_volume: value('volume'), preferred_process: value('process') || 'unspecified' });
     setStatus('Opening WhatsApp with your buying brief…');
     window.open(`https://wa.me/6281212158146?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
   }
 
-  return <form className="quote-form" onSubmit={sendInquiry} noValidate>
+  return <form className="quote-form" onSubmit={sendInquiry} onFocus={trackStart} noValidate>
     <div className="field"><label htmlFor="name">Your name *</label><input id="name" name="name" autoComplete="name" required /></div>
     <div className="field"><label htmlFor="company">Company *</label><input id="company" name="company" autoComplete="organization" required /></div>
     <div className="field"><label htmlFor="email">Business email *</label><input id="email" name="email" type="email" autoComplete="email" required /></div>

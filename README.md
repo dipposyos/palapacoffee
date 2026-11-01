@@ -1,6 +1,8 @@
 # Palapa Coffee
 
-Responsive company profile for Palapa Coffee, built with React, TypeScript, Tailwind CSS, and Vinext.
+[Palapa Coffee](https://palapacoffee.com) is the Indonesian green coffee export brand of **PT Sihombing Berkat Abadi**, connecting Arabica from Pangalengan and Ciwidey in West Java with international importers, roasters, and distributors.
+
+This repository contains the responsive company profile and buyer-resource website for Palapa Coffee, built with React, TypeScript, Tailwind CSS, and Vinext.
 
 ## Edit content, links, and images
 

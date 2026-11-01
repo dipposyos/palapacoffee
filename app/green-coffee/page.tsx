@@ -116,6 +116,7 @@ export default function GreenCoffeePage() {
       <div className="inner-section-heading"><div className="eyebrow"><span/> Buyer questions</div><h2 id="buyer-faq-title">Importing green coffee from Indonesia.</h2></div>
       <div className="faq-list">{buyerFaq.map((item) => <details key={item.question}><summary>{item.question}</summary><p>{item.answer}</p></details>)}</div>
     </section>
+    <nav className="resource-links" aria-label="Related green coffee buyer resources"><strong>Continue your research</strong><a href="/insights/bandung-highlands-coffee-buyer-guide">Bandung Highlands buyer guide</a><a href="/insights/import-green-coffee-from-indonesia">How to import green coffee from Indonesia</a><a href="/export-process">Coffee export process</a><a href="/request-quote">Request current lots</a></nav>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(listingSchema) }} />
   </main>;
 }

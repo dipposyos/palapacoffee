@@ -79,7 +79,7 @@ const structuredData = {
       url: 'https://palapacoffee.com',
       logo: 'https://palapacoffee.com/icon-512.png',
       email: 'palapacoffee46@gmail.com',
-      sameAs: ['https://instagram.com/palapa.coffee'],
+      sameAs: ['https://instagram.com/palapa.coffee', 'https://github.com/dipposyos/palapacoffee'],
       telephone: '+6281212158146',
       foundingDate: content.companyProfile.founded,
       founder: {
@@ -145,6 +145,20 @@ export default async function RootLayout({
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-8K6ZER5RXB');`}
+        </Script>
+        <Script id="conversion-tracking" strategy="afterInteractive">
+          {`document.addEventListener('click', function(event) {
+  var link = event.target.closest('a');
+  if (!link || typeof window.gtag !== 'function') return;
+  var href = link.getAttribute('href') || '';
+  var eventName = '';
+  if (href.indexOf('wa.me/') !== -1) eventName = 'click_whatsapp';
+  else if (href.indexOf('mailto:') === 0) eventName = 'click_email';
+  else if (href === '/request-quote') eventName = 'click_request_quote';
+  else if (href.indexOf('/coffee/') === 0) eventName = 'view_product_link';
+  else if (href.indexOf('/insights/') === 0) eventName = 'view_insight_link';
+  if (eventName) window.gtag('event', eventName, { link_url: link.href, link_text: (link.textContent || '').trim() });
+});`}
         </Script>
         <script
           type="application/ld+json"

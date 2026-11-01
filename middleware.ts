@@ -1,9 +1,6 @@
 import { NextResponse, type NextRequest } from 'next/server';
 
-const localeAliases: Record<string, string> = {
-  ar: 'ar-DZ',
-  ha: 'ha-NG',
-};
+const retiredLocales = new Set(['zh-CN', 'hi', 'ja', 'ko', 'th', 'vi', 'ms', 'ms-BN', 'hy', 'cs', 'ar-DZ', 'ha-NG', 'ar', 'ha']);
 
 export function middleware(request: NextRequest) {
   const url = request.nextUrl.clone();
@@ -20,11 +17,10 @@ export function middleware(request: NextRequest) {
   }
 
   const firstSegment = url.pathname.split('/').filter(Boolean)[0] ?? 'en';
-  if (localeAliases[firstSegment]) {
-    url.pathname = url.pathname.replace(`/${firstSegment}`, `/${localeAliases[firstSegment]}`);
+  if (retiredLocales.has(firstSegment)) {
+    url.pathname = '/';
     return NextResponse.redirect(url, 308);
   }
-
   const requestHeaders = new Headers(request.headers);
   requestHeaders.set('x-site-locale', firstSegment);
   requestHeaders.set('x-site-path', url.pathname);

@@ -8,6 +8,7 @@ export function InnerHeader() {
       <a href="/green-coffee">Green Coffee</a>
       <a href="/origins/bandung-highlands">Origin</a>
       <a href="/export-process">Export Process</a>
+      <a href="/insights">Insights</a>
       <a href="/#about">About</a>
       <a className="contact-button" href="/request-quote">Request a Quote <ArrowUpRight size={16}/></a>
     </nav>
