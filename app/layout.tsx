@@ -144,20 +144,44 @@ export default async function RootLayout({
           {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
-gtag('config', 'G-8K6ZER5RXB');`}
+var analyticsUrl = new URL(window.location.href);
+var internalFlag = analyticsUrl.searchParams.get('internal');
+if (internalFlag === '1') localStorage.setItem('palapa_internal_traffic', 'true');
+if (internalFlag === '0') localStorage.removeItem('palapa_internal_traffic');
+if (internalFlag !== null) {
+  analyticsUrl.searchParams.delete('internal');
+  history.replaceState({}, '', analyticsUrl.pathname + analyticsUrl.search + analyticsUrl.hash);
+}
+window.palapaAnalyticsEnabled = localStorage.getItem('palapa_internal_traffic') !== 'true';
+if (window.palapaAnalyticsEnabled) {
+  gtag('config', 'G-8K6ZER5RXB', { send_page_view: true });
+}`}
         </Script>
         <Script id="conversion-tracking" strategy="afterInteractive">
           {`document.addEventListener('click', function(event) {
   var link = event.target.closest('a');
-  if (!link || typeof window.gtag !== 'function') return;
+  if (!link || typeof window.gtag !== 'function' || window.palapaAnalyticsEnabled === false) return;
   var href = link.getAttribute('href') || '';
   var eventName = '';
   if (href.indexOf('wa.me/') !== -1) eventName = 'click_whatsapp';
   else if (href.indexOf('mailto:') === 0) eventName = 'click_email';
+  else if (href.indexOf('instagram.com/') !== -1) eventName = 'click_instagram';
+  else if (href.indexOf('youtube.com/') !== -1 || href.indexOf('youtu.be/') !== -1) eventName = 'video_outbound';
+  else if (href.indexOf('/images/legalitas/') === 0) eventName = 'view_legal_document';
   else if (href === '/request-quote') eventName = 'click_request_quote';
   else if (href.indexOf('/coffee/') === 0) eventName = 'view_product_link';
   else if (href.indexOf('/insights/') === 0) eventName = 'view_insight_link';
-  if (eventName) window.gtag('event', eventName, { link_url: link.href, link_text: (link.textContent || '').trim() });
+  if (!eventName) return;
+  var section = link.closest('section, header, footer');
+  var eventData = {
+    link_url: link.href,
+    link_text: (link.textContent || '').trim().slice(0, 100),
+    link_location: section ? (section.id || section.tagName.toLowerCase()) : 'page'
+  };
+  window.gtag('event', eventName, eventData);
+  if (eventName === 'click_whatsapp' || eventName === 'click_email') {
+    window.gtag('event', 'generate_lead', Object.assign({ method: eventName === 'click_whatsapp' ? 'whatsapp' : 'email' }, eventData));
+  }
 });`}
         </Script>
         <script

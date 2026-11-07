@@ -11,7 +11,7 @@ export function QuoteForm() {
     if (hasTrackedStart.current) return;
     hasTrackedStart.current = true;
     const analyticsWindow = window as typeof window & { gtag?: (...args: unknown[]) => void };
-    analyticsWindow.gtag?.('event', 'quote_form_start');
+    analyticsWindow.gtag?.('event', 'quote_form_start', { form_name: 'green_coffee_quote' });
   }
 
   function sendInquiry(event: FormEvent<HTMLFormElement>) {
@@ -21,6 +21,14 @@ export function QuoteForm() {
     const required = ['name', 'company', 'email', 'country', 'volume'];
     if (required.some((name) => !value(name))) {
       setStatus('Please complete every required field.');
+      const analyticsWindow = window as typeof window & { gtag?: (...args: unknown[]) => void };
+      analyticsWindow.gtag?.('event', 'quote_form_validation_error', { form_name: 'green_coffee_quote', error_type: 'missing_required_field' });
+      return;
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value('email'))) {
+      setStatus('Please enter a valid business email address.');
+      const analyticsWindow = window as typeof window & { gtag?: (...args: unknown[]) => void };
+      analyticsWindow.gtag?.('event', 'quote_form_validation_error', { form_name: 'green_coffee_quote', error_type: 'invalid_email' });
       return;
     }
     const message = [
@@ -38,7 +46,9 @@ export function QuoteForm() {
       `Additional notes: ${value('notes') || 'None'}`,
     ].join('\n');
     const analyticsWindow = window as typeof window & { gtag?: (...args: unknown[]) => void };
-    analyticsWindow.gtag?.('event', 'quote_form_complete', { destination_country: value('country'), expected_volume: value('volume'), preferred_process: value('process') || 'unspecified' });
+    const leadData = { form_name: 'green_coffee_quote', method: 'quote_form', destination_country: value('country'), expected_volume: value('volume'), preferred_process: value('process') || 'unspecified' };
+    analyticsWindow.gtag?.('event', 'quote_form_complete', leadData);
+    analyticsWindow.gtag?.('event', 'generate_lead', leadData);
     setStatus('Opening WhatsApp with your buying brief…');
     window.open(`https://wa.me/6281212158146?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
   }
