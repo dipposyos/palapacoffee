@@ -3,6 +3,7 @@ import { ArrowDownRight, ArrowUpRight, Mail, MapPin, Menu, MessageCircle, Play }
 import { content } from '../site.config';
 import languageData from './translations.json';
 import { LanguagePicker } from './language-picker';
+import { ConversionCtas } from './conversion-ctas';
 
 type Locale = keyof typeof languageData.translations;
 
@@ -48,7 +49,7 @@ export default function SiteHome({ initialLocale = 'en' }: { initialLocale?: Loc
 
     <section id="about" className="section about">
       <div className="about-pictures left"><img src={content.images.about[0]} width={750} height={1000} alt="Coffee farmer in Bandung" loading="lazy" decoding="async"/><img src={content.images.about[1]} width={1400} height={1867} alt="Palapa Coffee visiting a coffee processing partner in West Java" loading="lazy" decoding="async"/></div>
-      <div className="about-copy"><div className="eyebrow"><span/> {t.aboutEyebrow}</div><h2>{t.aboutTitle}</h2><p>{t.aboutDescription1}</p><p>{t.aboutDescription2}</p><blockquote>“{t.quote}”</blockquote><div className="signature">{content.companyProfile.founder} · {content.companyProfile.founderTitle}<br/><span>{content.companyProfile.legalName} · Established {content.companyProfile.founded}</span></div></div>
+      <div className="about-copy"><div className="eyebrow"><span/> {t.aboutEyebrow}</div><h2>{t.aboutTitle}</h2><p>{t.aboutDescription1}</p><p>{t.aboutDescription2}</p><blockquote>“{t.quote}”</blockquote><div className="signature"><a href="/about/dippos-yosafat">{content.companyProfile.founder} · {content.companyProfile.founderTitle}</a><br/><span>{content.companyProfile.legalName} · Established {content.companyProfile.founded}</span></div></div>
       <div className="about-pictures right"><img src={content.images.about[2]} width={800} height={800} alt="West Java coffee-growing landscape" loading="lazy" decoding="async"/><img src={content.images.about[3]} width={750} height={1000} alt="Coffee cupping and quality evaluation" loading="lazy" decoding="async"/></div>
     </section>
 
@@ -66,6 +67,7 @@ export default function SiteHome({ initialLocale = 'en' }: { initialLocale?: Loc
       </div>
     </section>
 
+    <ConversionCtas />
     <section id="contact" className="contact">
       <div className="contact-title"><div><div className="eyebrow light"><span/> {t.contactEyebrow}</div><h2>{t.contactTitle}</h2></div><p>{t.contactDescription}</p></div>
       <div className="contact-grid"><a href={content.links.whatsapp} target="_blank" rel="noreferrer"><MessageCircle/><span>{t.whatsapp}</span><strong>{t.startConversation}</strong><ArrowUpRight className="corner"/></a><a href={`mailto:${content.links.email}`}><Mail/><span>{t.email}</span><strong>{content.links.email}</strong><ArrowUpRight className="corner"/></a><div><MapPin/><span>{t.ourBase}</span><strong>{content.address}</strong></div></div>

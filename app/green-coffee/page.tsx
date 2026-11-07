@@ -3,6 +3,7 @@ import { ArrowUpRight } from 'lucide-react';
 import { InnerHeader } from '../inner-header';
 import { coffeeProducts } from '../product-data';
 import { content } from '../../site.config';
+import { ConversionCtas } from '../conversion-ctas';
 
 export const metadata: Metadata = {
   title: 'Indonesian Green Coffee Beans Supplier | Bandung Arabica',
@@ -117,6 +118,7 @@ export default function GreenCoffeePage() {
       <div className="faq-list">{buyerFaq.map((item) => <details key={item.question}><summary>{item.question}</summary><p>{item.answer}</p></details>)}</div>
     </section>
     <nav className="resource-links" aria-label="Related green coffee buyer resources"><strong>Continue your research</strong><a href="/insights/bandung-highlands-coffee-buyer-guide">Bandung Highlands buyer guide</a><a href="/insights/import-green-coffee-from-indonesia">How to import green coffee from Indonesia</a><a href="/export-process">Coffee export process</a><a href="/request-quote">Request current lots</a></nav>
+    <ConversionCtas />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(listingSchema) }} />
   </main>;
 }

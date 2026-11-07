@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { ArrowUpRight } from 'lucide-react';
 import { InnerHeader } from '../../inner-header';
 import { content } from '../../../site.config';
+import { ConversionCtas } from '../../conversion-ctas';
 
 export const metadata: Metadata = {
   title: 'Bandung Arabica Green Coffee | West Java Origin',
@@ -96,6 +97,7 @@ export default function BandungHighlandsPage() {
       <article><span>03</span><h2>Prepared</h2><p>Physical, sensory, packaging, volume, and shipment requirements are aligned with the buyer before a commercial offer is finalized. Peak-harvest capacity can reach 20 metric tons, subject to current lot availability.</p></article>
     </section>
     <section className="sample-cta"><div><div className="eyebrow light"><span/> For importers and roasters</div><h2>Ask for the current Bandung offer.</h2></div><div><p>Tell us your destination, expected volume, preferred process, quality target, and timeline. {content.trade.samples}. We will confirm which origin lots are currently relevant.</p><a className="text-link light" href="/request-quote">Send your buying brief <ArrowUpRight size={17}/></a></div></section>
+    <ConversionCtas />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />
   </main>;
 }

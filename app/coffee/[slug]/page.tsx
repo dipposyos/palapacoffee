@@ -4,6 +4,7 @@ import { ArrowUpRight } from 'lucide-react';
 import { InnerHeader } from '../../inner-header';
 import { coffeeProducts, getCoffeeProduct } from '../../product-data';
 import { content } from '../../../site.config';
+import { ConversionCtas } from '../../conversion-ctas';
 
 type ProductPageProps = { params: Promise<{ slug: string }> };
 
@@ -82,6 +83,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
       </dl>
     </section>
     <section className="sample-cta"><div><div className="eyebrow light"><span/> Sample first</div><h2>Evaluate the coffee before you commit.</h2></div><div><p>Share your company, country, expected volume, roast market, and preferred profile. We will confirm suitable lots and the sampling process.</p><a className="text-link light" href={content.links.whatsapp} target="_blank" rel="noreferrer">Ask for current samples <ArrowUpRight size={17}/></a></div></section>
+    <ConversionCtas />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
   </main>;
 }

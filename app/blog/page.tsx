@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { ArrowUpRight } from 'lucide-react';
 import { InnerHeader } from '../inner-header';
 import { insightPosts } from '../insights/blog-data';
+import { ConversionCtas } from '../conversion-ctas';
 
 export const metadata: Metadata = {
   title: 'Indonesian Coffee Blog | Origin & Export Stories',
@@ -32,7 +33,8 @@ export default function BlogPage() {
           </div>
         </article>)}
       </div>
-      <p className="blog-coming-soon">More articles will be published here soon.</p>
+      <p className="blog-coming-soon">New buyer and origin guides are published regularly.</p>
     </section>
+    <ConversionCtas />
   </main>;
 }
