@@ -56,6 +56,12 @@ export const content = {
   },
   images: {
     hero: '/images/west-java-coffee-farm.jpeg',
+    heroResponsive: {
+      desktopAvif: '/images/hero/bandung-coffee-desktop.avif',
+      desktopWebp: '/images/hero/bandung-coffee-desktop.webp',
+      mobileAvif: '/images/hero/bandung-coffee-mobile.avif',
+      mobileWebp: '/images/hero/bandung-coffee-mobile.webp',
+    },
     process: [
       '/images/cultivated.jpeg',
       '/images/processed.jpeg',

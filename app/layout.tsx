@@ -128,7 +128,8 @@ export default async function RootLayout({
       <head>
         {isLocalizedHome && (
           <>
-            <link rel="preload" as="image" href="/images/west-java-coffee-farm.jpeg" fetchPriority="high" />
+            <link rel="preload" as="image" href={content.images.heroResponsive.mobileAvif} type="image/avif" media="(max-width: 600px)" fetchPriority="high" />
+            <link rel="preload" as="image" href={content.images.heroResponsive.desktopAvif} type="image/avif" media="(min-width: 601px)" fetchPriority="high" />
             {Object.entries(languageAlternates).map(([language, path]) => (
               <link key={language} rel="alternate" hrefLang={language} href={`https://palapacoffee.com${String(path)}`} />
             ))}
@@ -139,8 +140,8 @@ export default async function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         {children}
-        <Script src="https://www.googletagmanager.com/gtag/js?id=G-8K6ZER5RXB" strategy="afterInteractive" />
-        <Script id="google-analytics" strategy="afterInteractive">
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-8K6ZER5RXB" strategy="lazyOnload" />
+        <Script id="google-analytics" strategy="lazyOnload">
           {`window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
@@ -157,7 +158,7 @@ if (window.palapaAnalyticsEnabled) {
   gtag('config', 'G-8K6ZER5RXB', { send_page_view: true });
 }`}
         </Script>
-        <Script id="conversion-tracking" strategy="afterInteractive">
+        <Script id="conversion-tracking" strategy="lazyOnload">
           {`document.addEventListener('click', function(event) {
   var link = event.target.closest('a');
   if (!link || typeof window.gtag !== 'function' || window.palapaAnalyticsEnabled === false) return;

@@ -1,9 +1,8 @@
-'use client';
-
-import { useEffect } from 'react';
+import type { CSSProperties } from 'react';
 import { ArrowDownRight, ArrowUpRight, Mail, MapPin, Menu, MessageCircle, Play } from 'lucide-react';
 import { content } from '../site.config';
 import languageData from './translations.json';
+import { LanguagePicker } from './language-picker';
 
 type Locale = keyof typeof languageData.translations;
 
@@ -12,25 +11,24 @@ function WhatsAppIcon() { return <svg viewBox="0 0 32 32" aria-hidden="true"><pa
 export default function SiteHome({ initialLocale = 'en' }: { initialLocale?: Locale }) {
   const locale = initialLocale;
   const t = languageData.translations[locale];
-
-  useEffect(() => {
-    document.documentElement.lang = locale;
-    document.documentElement.dir = locale.startsWith('ar') ? 'rtl' : 'ltr';
-  }, [locale]);
+  const heroStyle = {
+    '--hero-mobile': `image-set(url(${content.images.heroResponsive.mobileAvif}) type("image/avif"), url(${content.images.heroResponsive.mobileWebp}) type("image/webp"), url(${content.images.hero}) type("image/jpeg"))`,
+    '--hero-desktop': `image-set(url(${content.images.heroResponsive.desktopAvif}) type("image/avif"), url(${content.images.heroResponsive.desktopWebp}) type("image/webp"), url(${content.images.hero}) type("image/jpeg"))`,
+  } as CSSProperties;
 
   return <main>
     <a className="skip-link" href="#origin">{t.skip}</a>
     <header className="site-header">
       <a className="brand" href="#top" aria-label={t.home}><span>Palapa</span> Coffee</a>
       <div className="header-actions">
-        <label className="language-picker"><span className="sr-only">Select language</span><select value={locale} onChange={(event) => { const nextLocale = event.target.value as Locale; window.location.href = nextLocale === 'en' ? '/' : `/${nextLocale}`; }} aria-label="Select language">{languageData.languageOptions.map((language) => <option key={language.code} value={language.code}>{language.label}</option>)}</select></label>
+        <LanguagePicker locale={locale}/>
         <nav className="desktop-nav" aria-label="Primary navigation"><a href="#origin">{t.navOrigin}</a><a href="#quality">{t.navQuality}</a><a href="#about">{t.navAbout}</a><a href="/blog">Blog</a><a className="contact-button" href="#contact">{t.navContact} <ArrowUpRight size={16} aria-hidden="true"/></a></nav>
         <details className="mobile-nav"><summary aria-label={t.openMenu}><Menu aria-hidden="true"/></summary><nav aria-label="Mobile navigation"><a href="#origin">{t.navOrigin}</a><a href="#quality">{t.navQuality}</a><a href="#about">{t.navAbout}</a><a href="#legalitas">Legality</a><a href="/blog">Blog</a><a href="#contact">{t.navContact}</a></nav></details>
       </div>
     </header>
     <a className="floating-whatsapp" href={content.links.whatsapp} target="_blank" rel="noreferrer" aria-label={t.chatWhatsapp}><WhatsAppIcon/><span>{t.chatLabel}</span></a>
 
-    <section id="top" className="hero" style={{backgroundImage:`linear-gradient(90deg,rgba(26,20,13,.82),rgba(26,20,13,.18)),url(${content.images.hero})`}}>
+    <section id="top" className="hero" style={heroStyle}>
       <div className="eyebrow light"><span/> {t.heroEyebrow}</div><h1>{t.heroTitle}</h1><p>{t.heroDescription}</p>
       <div className="hero-actions"><a href="#origin">{t.discover} <ArrowDownRight size={17}/></a><span>{t.coordinates}</span></div>
     </section>
