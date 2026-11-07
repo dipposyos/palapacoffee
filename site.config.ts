@@ -36,6 +36,24 @@ export const content = {
     { id: '8jV57KnB4_Q', url: 'https://youtube.com/shorts/8jV57KnB4_Q?feature=share', title: 'Coffee process story 03' },
     { id: '5vqVJkLrQ8U', url: 'https://youtube.com/shorts/5vqVJkLrQ8U?feature=share', title: 'Coffee process story 04' },
   ],
+  originMedia: {
+    photos: [
+      '/images/origin/green-coffee-cherries-bandung.webp',
+      '/images/origin/traditional-coffee-drying.webp',
+    ],
+    videos: [
+      {
+        src: '/videos/green-coffee-lot-inspection.mp4',
+        poster: '/images/origin/green-coffee-lot-inspection-poster.webp',
+        title: 'Green coffee lot inspection',
+      },
+      {
+        src: '/videos/green-coffee-processing-equipment.mp4',
+        poster: '/images/origin/processing-equipment-poster.webp',
+        title: 'Processing equipment at origin',
+      },
+    ],
+  },
   images: {
     hero: '/images/west-java-coffee-farm.jpeg',
     process: [

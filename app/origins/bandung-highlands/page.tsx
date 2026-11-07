@@ -47,6 +47,24 @@ export default function BandungHighlandsPage() {
           { '@type': 'ListItem', position: 3, name: 'Bandung Highlands', item: 'https://palapacoffee.com/origins/bandung-highlands' },
         ],
       },
+      {
+        '@type': 'VideoObject',
+        name: 'Green coffee lot inspection in West Java',
+        description: 'A short documentary clip showing a physical inspection of green coffee during an origin and processing-partner visit.',
+        thumbnailUrl: 'https://palapacoffee.com/images/origin/green-coffee-lot-inspection-poster.webp',
+        uploadDate: '2026-10-25',
+        duration: 'PT7S',
+        contentUrl: 'https://palapacoffee.com/videos/green-coffee-lot-inspection.mp4',
+      },
+      {
+        '@type': 'VideoObject',
+        name: 'Green coffee processing equipment in West Java',
+        description: 'A short documentary clip showing processing equipment at a Palapa Coffee processing-partner facility.',
+        thumbnailUrl: 'https://palapacoffee.com/images/origin/processing-equipment-poster.webp',
+        uploadDate: '2026-10-25',
+        duration: 'PT6S',
+        contentUrl: 'https://palapacoffee.com/videos/green-coffee-processing-equipment.mp4',
+      },
     ],
   };
 
@@ -63,6 +81,14 @@ export default function BandungHighlandsPage() {
     <section className="origin-facts">
       <div className="inner-section-heading"><div className="eyebrow"><span/> Published origin facts</div><h2>What buyers can verify.</h2></div>
       <dl>{originFacts.map(([label, value]) => <div key={label}><dt>{label}</dt><dd>{value}</dd></div>)}</dl>
+    </section>
+    <section className="origin-field-notes">
+      <div className="inner-section-heading"><div className="eyebrow"><span/> Field documentation</div><h2>Observed at origin.</h2><p>Original photographs and short clips recorded during a Palapa Coffee visit in the Bandung area on 25 October 2026. They document coffee plants, drying practice, green-bean inspection, and processing equipment without presenting them as specifications for every lot.</p></div>
+      <div className="origin-media-grid">
+        <figure className="origin-media-item origin-media-photo"><img src={content.originMedia.photos[0]} width="1200" height="1600" loading="lazy" decoding="async" alt="Coffee plant with clusters of green cherries documented during a Bandung-area origin visit"/><figcaption><span>01 · Cultivation</span><strong>Green coffee cherries</strong><p>Fruit development observed during the origin visit.</p></figcaption></figure>
+        <figure className="origin-media-item origin-media-photo"><img src={content.originMedia.photos[1]} width="1200" height="1600" loading="lazy" decoding="async" alt="Coffee cherries drying in woven bamboo trays at origin in West Java"/><figcaption><span>02 · Drying</span><strong>Traditional drying reference</strong><p>Coffee cherries arranged in woven trays during processing.</p></figcaption></figure>
+        {content.originMedia.videos.map((video, index) => <figure className="origin-media-item origin-media-video" key={video.src}><video controls playsInline preload="metadata" poster={video.poster} aria-label={video.title}><source src={video.src} type="video/mp4"/>Your browser does not support embedded video.</video><figcaption><span>0{index + 3} · Documentation</span><strong>{video.title}</strong><p>{index === 0 ? 'A close view of green coffee during a physical lot inspection.' : 'Equipment documented at a processing-partner facility.'}</p></figcaption></figure>)}
+      </div>
     </section>
     <section className="origin-path">
       <article><span>01</span><h2>Cultivated</h2><p>Arabica grows at high elevation in the Bandung Highlands. Farm, producer, variety, and harvest details are confirmed for each offered lot.</p></article>
