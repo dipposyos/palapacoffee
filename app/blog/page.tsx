@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 };
 
 export default function BlogPage() {
+  const newestPosts = [...insightPosts].sort((a, b) => b.published.localeCompare(a.published));
   return <main className="inner-page blog-page">
     <InnerHeader />
     <section className="blog-index" aria-labelledby="blog-title">
@@ -21,7 +22,7 @@ export default function BlogPage() {
         <p>News and practical knowledge from Palapa Coffee. This journal will share stories about Indonesian coffee origins, farming, processing, quality, and export preparation.</p>
       </header>
       <div className="blog-card-grid" aria-label="Coffee articles">
-        {insightPosts.map((post, index) => <article className="blog-card" key={post.slug}>
+        {newestPosts.map((post, index) => <article className="blog-card" key={post.slug}>
           <a className="blog-card-image" href={`/insights/${post.slug}`}>
             <img src={post.image} width={post.image.includes('drying') ? 1078 : 750} height={post.image.includes('drying') ? 1200 : 1000} alt={post.imageAlt} loading={index === 0 ? 'eager' : 'lazy'} decoding="async" />
           </a>
