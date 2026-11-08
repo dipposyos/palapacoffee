@@ -92,7 +92,7 @@ const structuredData = {
         contactType: 'sales',
         telephone: '+6281212158146',
         email: 'palapacoffee46@gmail.com',
-        availableLanguage: ['English', 'Indonesian'],
+        availableLanguage: ['English', 'Indonesian', 'Russian'],
       },
       address: {
         '@type': 'PostalAddress',
@@ -170,7 +170,7 @@ if (window.palapaAnalyticsEnabled) {
   else if (href.indexOf('linkedin.com/') !== -1) eventName = 'click_linkedin';
   else if (href.indexOf('youtube.com/') !== -1 || href.indexOf('youtu.be/') !== -1) eventName = 'video_outbound';
   else if (href.indexOf('/images/legalitas/') === 0) eventName = 'view_legal_document';
-  else if (href === '/request-quote') eventName = 'click_request_quote';
+  else if (href.indexOf('/request-quote') === 0) eventName = 'click_request_quote';
   else if (href.indexOf('/coffee/') === 0) eventName = 'view_product_link';
   else if (href.indexOf('/insights/') === 0) eventName = 'view_insight_link';
   if (!eventName) return;

@@ -53,6 +53,22 @@ export default async function ProductPage({ params }: ProductPageProps) {
         },
       },
       {
+        '@type': 'Product',
+        '@id': `${productUrl}#product`,
+        name: `${product.name} Green Coffee Beans`,
+        description: product.description,
+        image: `https://palapacoffee.com${product.image}`,
+        category: 'Green coffee beans',
+        brand: { '@type': 'Brand', name: 'Palapa Coffee' },
+        countryOfOrigin: { '@type': 'Country', name: 'Indonesia' },
+        material: 'Arabica green coffee',
+        additionalProperty: [
+          { '@type': 'PropertyValue', name: 'Origin', value: product.origin },
+          { '@type': 'PropertyValue', name: 'Altitude', value: product.altitude },
+          { '@type': 'PropertyValue', name: 'Process', value: product.process },
+        ],
+      },
+      {
         '@type': 'BreadcrumbList',
         itemListElement: [
           { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://palapacoffee.com/' },
@@ -76,13 +92,15 @@ export default async function ProductPage({ params }: ProductPageProps) {
         <div><dt>Altitude</dt><dd>{product.altitude}</dd></div>
         <div><dt>Process</dt><dd>{product.process}</dd></div>
         <div><dt>Expected character</dt><dd>{product.profile}</dd></div>
-        <div><dt>Variety & harvest</dt><dd>Confirmed with the current lot sheet</dd></div>
+        <div><dt>Species</dt><dd>Arabica</dd></div>
+        <div><dt>Main harvest reference</dt><dd>April; confirmed with the current lot sheet</dd></div>
         <div><dt>MOQ & available volume</dt><dd>Confirmed on inquiry</dd></div>
         <div><dt>Physical analysis</dt><dd>Available with the current lot sheet</dd></div>
         <div><dt>Packaging & terms</dt><dd>Agreed for destination and shipment size</dd></div>
       </dl>
     </section>
     <section className="sample-cta"><div><div className="eyebrow light"><span/> Sample first</div><h2>Evaluate the coffee before you commit.</h2></div><div><p>Share your company, country, expected volume, roast market, and preferred profile. We will confirm suitable lots and the sampling process.</p><a className="text-link light" href={content.links.whatsapp} target="_blank" rel="noreferrer">Ask for current samples <ArrowUpRight size={17}/></a></div></section>
+    <nav className="resource-links" aria-label="Related product resources"><strong>Buyer resources</strong><a href="/green-coffee">Compare Bandung Arabica processes</a><a href="/insights/evaluate-indonesian-green-coffee-sample">Sample evaluation guide</a><a href="/export-process">FOB export process</a><a href="/request-quote?intent=sample">Request this coffee</a></nav>
     <ConversionCtas />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(pageSchema) }} />
   </main>;

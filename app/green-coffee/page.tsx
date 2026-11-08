@@ -36,11 +36,11 @@ const buyerFaq = [
   },
   {
     question: 'What are the MOQ, price, and available volume?',
-    answer: 'MOQ, price, and available volume are quoted against a current lot and shipment plan. This prevents outdated commercial information and lets us respond to the buyer’s destination, volume, packaging, and quality requirements.',
+    answer: 'MOQ and price are quoted against a current lot and shipment plan. Peak-harvest capacity can reach 20 metric tons, subject to actual lot availability and existing commitments.',
   },
   {
     question: 'Which documents are provided for coffee export from Indonesia?',
-    answer: 'The document set depends on the destination, shipment method, buyer requirements, and agreed trade responsibilities. Palapa Coffee confirms the applicable documents before an order is finalized.',
+    answer: 'Our starting document set includes a Phytosanitary Certificate and Certificate of Origin. Other destination-specific documents are reviewed and accommodated where possible before an order is finalized.',
   },
 ] as const;
 
@@ -113,11 +113,27 @@ export default function GreenCoffeePage() {
       <div><div className="eyebrow light"><span/> Lot-specific buying</div><h2>No invented specifications.</h2></div>
       <div><p>Coffee changes from harvest to harvest. We provide the exact variety, moisture, density, screen distribution, defect count, cupping notes, available volume, packaging, and commercial terms for the lot you are considering.</p><p>Tell us your destination, target volume, preferred process, and cup profile. We will respond with the most relevant current options.</p><a className="text-link light" href="/request-quote">Send your buying requirements <ArrowUpRight size={16}/></a></div>
     </section>
+    <section className="origin-facts trade-facts" aria-labelledby="commercial-facts-title">
+      <div className="inner-section-heading">
+        <div><div className="eyebrow"><span/> Commercial information</div><h2 id="commercial-facts-title">A clear starting point for buyers.</h2></div>
+        <p>These parameters help importers and roasters qualify an inquiry. The final offer remains tied to a selected lot, destination, and written commercial agreement.</p>
+      </div>
+      <dl>
+        <div><dt>Coffee</dt><dd>Arabica green coffee from Bandung, West Java</dd></div>
+        <div><dt>Altitude</dt><dd>1,200–1,700 metres above sea level</dd></div>
+        <div><dt>Main harvest reference</dt><dd>April; exact readiness is confirmed per lot</dd></div>
+        <div><dt>Peak-harvest capacity</dt><dd>{content.trade.peakCapacity}</dd></div>
+        <div><dt>Trade term</dt><dd>{content.trade.incoterm} {content.trade.port}</dd></div>
+        <div><dt>Preparation estimate</dt><dd>{content.trade.preparationTime}</dd></div>
+        <div><dt>Sample policy</dt><dd>{content.trade.samples}</dd></div>
+        <div><dt>Payment</dt><dd>{content.trade.paymentMethods}</dd></div>
+      </dl>
+    </section>
     <section className="buyer-faq" aria-labelledby="buyer-faq-title">
       <div className="inner-section-heading"><div className="eyebrow"><span/> Buyer questions</div><h2 id="buyer-faq-title">Importing green coffee from Indonesia.</h2></div>
       <div className="faq-list">{buyerFaq.map((item) => <details key={item.question}><summary>{item.question}</summary><p>{item.answer}</p></details>)}</div>
     </section>
-    <nav className="resource-links" aria-label="Related green coffee buyer resources"><strong>Continue your research</strong><a href="/insights/bandung-highlands-coffee-buyer-guide">Bandung Highlands buyer guide</a><a href="/insights/import-green-coffee-from-indonesia">How to import green coffee from Indonesia</a><a href="/export-process">Coffee export process</a><a href="/request-quote">Request current lots</a></nav>
+    <nav className="resource-links" aria-label="Related green coffee buyer resources"><strong>Continue your research</strong><a href="/insights/bandung-highlands-coffee-buyer-guide">Bandung Highlands buyer guide</a><a href="/insights/import-green-coffee-from-indonesia">How to import green coffee from Indonesia</a><a href="/insights/evaluate-indonesian-green-coffee-sample">How to evaluate a sample</a><a href="/export-process">Coffee export process</a><a href="/request-quote?intent=lot-list">Request current lots</a></nav>
     <ConversionCtas />
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(listingSchema) }} />
   </main>;
