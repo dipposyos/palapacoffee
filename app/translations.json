@@ -57,8 +57,8 @@
       "offerList": "Request our current offer list",
       "qualities": [
         [
-          "Specialty grade",
-          "Selected lots scoring 80+ with clear provenance and a clean, expressive cup."
+          "Lot-specific quality",
+          "Current physical and sensory information is shared for the coffee being offered, without relying on permanent claims."
         ],
         [
           "Natural character",
@@ -75,9 +75,9 @@
       ],
       "aboutEyebrow": "About Palapa",
       "aboutTitle": "Who we are",
-      "aboutDescription1": "Palapa Coffee is the coffee export brand of PT Sihombing Berkat Abadi, an Indonesian company established in 2024. From our office in Bekasi, we connect West Java coffee from Pangalengan and Ciwidey with importers, roasters, distributors, and coffee businesses worldwide.",
-      "aboutDescription2": "Founder and CEO Dippos Yosafat started Palapa Coffee with an ambition to help Indonesian coffee farmers progress and contribute to the growth of Indonesia’s coffee industry through responsible, long-term international trade.",
-      "quote": "Advancing Indonesian farmers and bringing the work behind Java coffee to the world.",
+      "aboutDescription1": "Palapa Coffee began after founder Dippos Yosafat visited coffee farms and processing sites in West Java. He listened to farmers and processors explain how they grow coffee, handle each harvest, and support their communities through this work.",
+      "aboutDescription2": "Those visits shaped a practical goal: connect Bandung coffee with international buyers while building transparent, long-term relationships. Our vision is stable supply for buyers and dependable demand for the communities at origin.",
+      "quote": "I want buyers to have a stable source of coffee, and farming communities to have buyers they can count on.",
       "founder": "Founder, Palapa Coffee",
       "bandungIndonesia": "Bandung · Indonesia",
       "contactEyebrow": "Let’s talk coffee",
@@ -134,8 +134,8 @@
       "offerList": "Minta daftar penawaran kami saat ini",
       "qualities": [
         [
-          "Kelas khusus",
-          "Lot terpilih dengan skor 80+ dengan asal yang jelas dan cangkir yang bersih dan ekspresif."
+          "Kualitas setiap lot",
+          "Informasi fisik dan sensori dibagikan sesuai kopi yang sedang ditawarkan, tanpa menggunakan klaim yang berlaku selamanya."
         ],
         [
           "Karakter alami",
@@ -152,9 +152,9 @@
       ],
       "aboutEyebrow": "Tentang Palapa",
       "aboutTitle": "Siapa kita?",
-      "aboutDescription1": "Palapa Coffee adalah merek ekspor kopi dari PT Sihombing Berkat Abadi, perusahaan Indonesia yang berdiri pada tahun 2024. Dari kantor kami di Bekasi, kami menghubungkan kopi Jawa Barat dari Pangalengan dan Ciwidey dengan importir, roaster, distributor, dan pelaku usaha kopi di dunia.",
-      "aboutDescription2": "Founder dan CEO Dippos Yosafat mendirikan Palapa Coffee dengan cita-cita untuk membantu kemajuan petani kopi Indonesia dan mendorong pertumbuhan industri kopi nasional melalui perdagangan internasional yang bertanggung jawab dan berjangka panjang.",
-      "quote": "Memajukan petani Indonesia dan membawa karya di balik kopi Jawa kepada dunia.",
+      "aboutDescription1": "Palapa Coffee bermula setelah founder Dippos Yosafat mendatangi kebun dan tempat pengolahan kopi di Jawa Barat. Ia mendengarkan cerita petani dan pengolah tentang cara mereka menanam, menangani setiap panen, dan menghidupi masyarakat sekitar melalui kopi.",
+      "aboutDescription2": "Kunjungan tersebut membentuk tujuan yang sederhana: menghubungkan kopi Bandung dengan pembeli internasional melalui hubungan yang transparan dan berjangka panjang. Kami menginginkan pasokan stabil bagi pembeli dan permintaan yang lebih pasti bagi masyarakat di daerah asal.",
+      "quote": "Saya ingin pembeli mempunyai pasokan kopi yang stabil, dan masyarakat petani mempunyai pembeli yang dapat mereka andalkan.",
       "founder": "Pendirinya, Palapa Kopi",
       "bandungIndonesia": "Bandung · Indonesia",
       "contactEyebrow": "Mari kita bicara tentang kopi",
@@ -211,8 +211,8 @@
       "offerList": "Запросите наш текущий список предложений",
       "qualities": [
         [
-          "Специальность",
-          "Избранные лоты с рейтингом 80+, четким происхождением и чистой, выразительной чашкой."
+          "Качество конкретного лота",
+          "Актуальные физические и сенсорные данные предоставляются для конкретного предлагаемого лота без постоянных неподтверждённых заявлений."
         ],
         [
           "Естественный характер",
@@ -229,9 +229,9 @@
       ],
       "aboutEyebrow": "О Палапе",
       "aboutTitle": "Кто мы?",
-      "aboutDescription1": "Компания Palapa Coffee была основана на простом убеждении: замечательный яванский кофе заслуживает открытого пути в мир. Находясь в Бандунге, мы связываем работу производителей и переработчиков Западной Явы с импортерами, независимыми обжарщиками и кофейнями, которые заботятся о происхождении.",
-      "aboutDescription2": "Мы являемся экспортным партнером, стоящим на месте происхождения. Это означает меньшее количество слоев, честное общение и внимание к важным деталям, от образцов и спецификаций до подготовки и отгрузки.",
-      "quote": "Мы хотим, чтобы каждые отношения были такими же важными, как и сам кофе.",
+      "aboutDescription1": "Palapa Coffee появилась после того, как основатель Диппос Йосафат лично посетил кофейные фермы и перерабатывающие площадки Западной Явы. Он слушал рассказы фермеров и переработчиков о выращивании кофе, работе с урожаем и значении этой отрасли для местных семей.",
+      "aboutDescription2": "Эти поездки сформировали практическую цель: связать кофе из Бандунга с международными покупателями через прозрачные и долгосрочные отношения. Покупателям нужен стабильный источник, а сообществам в местах происхождения — надёжный спрос.",
+      "quote": "Я хочу, чтобы у покупателей был стабильный источник кофе, а у фермерских сообществ — покупатели, на которых можно положиться.",
       "founder": "Основатель компании Palapa Coffee",
       "bandungIndonesia": "Бандунг · Индонезия",
       "contactEyebrow": "Поговорим о кофе",
