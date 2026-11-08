@@ -79,7 +79,7 @@ const structuredData = {
       url: 'https://palapacoffee.com',
       logo: 'https://palapacoffee.com/icon-512.png',
       email: 'palapacoffee46@gmail.com',
-      sameAs: ['https://instagram.com/palapa.coffee', 'https://github.com/dipposyos/palapacoffee'],
+      sameAs: [content.links.instagram, content.links.linkedinCompany, 'https://github.com/dipposyos/palapacoffee'],
       telephone: '+6281212158146',
       foundingDate: content.companyProfile.founded,
       founder: {
@@ -167,6 +167,7 @@ if (window.palapaAnalyticsEnabled) {
   if (href.indexOf('wa.me/') !== -1) eventName = 'click_whatsapp';
   else if (href.indexOf('mailto:') === 0) eventName = 'click_email';
   else if (href.indexOf('instagram.com/') !== -1) eventName = 'click_instagram';
+  else if (href.indexOf('linkedin.com/') !== -1) eventName = 'click_linkedin';
   else if (href.indexOf('youtube.com/') !== -1 || href.indexOf('youtu.be/') !== -1) eventName = 'video_outbound';
   else if (href.indexOf('/images/legalitas/') === 0) eventName = 'view_legal_document';
   else if (href === '/request-quote') eventName = 'click_request_quote';

@@ -28,6 +28,8 @@ export const content = {
     whatsapp: 'https://wa.me/6281212158146?text=Hey%2C%20I%20want%20to%20ask%20about%20Palapa%20Coffee.',
     email: 'palapacoffee46@gmail.com',
     instagram: 'https://instagram.com/palapa.coffee',
+    linkedinCompany: 'https://www.linkedin.com/palapa-coffee',
+    linkedinFounder: 'https://www.linkedin.com/in/dippos-yosafat/',
   },
   address: 'Bekasi, West Java, Indonesia',
   videos: [
